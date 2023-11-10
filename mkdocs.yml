@@ -1,0 +1,65 @@
+site_name: FAIRiCUBE-HUB Documentation
+#site_url: https://fairicube.readthedocs.io
+#repo_url: https://github.com/fairicube/fairicubehub-doc
+#edit_uri: edit/main/docs
+copyright: Copyright © 2023 by the FAIRiCUBE Team
+theme: readthedocs  # alternative: mkdocs
+
+nav:
+  - Home:
+    - About FAIRiCUBE: index.md
+    - Overview: guide/overview.md
+  - Design:
+    - FAIRiCUBE Hub: guide/fic_hub.md
+    - Context: design/fic_context.md
+#    - Architecture: design/fic_architecture.md
+#    - Services and Tools: design/fic_services-and-tools.md
+  - User guide:
+    - FAIRiCUBE Catalog: guide/fic_catalog.md
+    - FAIRiCUBE Lab: guide/jupyterlab.md
+    - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
+    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
+    - Datacubes: guide/datacubes.md
+    - rasdaman datacubes: guide/rasdaman_cube.md
+    - xcube utilization:  guide/xcube_generation.md
+#    - ML Toolkits: guide/ml-toolkits.md
+    - Further information: guide/further-information.md
+  - ML-Toolkits:
+    - ML-Toolkits Introduction: ml-toolkits/ml_introduction.md
+    - MLflow Introduction: ml-toolkits/mlflow_introduction.md
+    - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
+    - ML-Toolkit Examples: ml-toolkits/ml_examples.md
+##    - ML Recommendations and Considerations: ml-toolkit/ml_recommendations.md
+#    - Scikit Introduction: ml-toolkits/sk_introduction.md
+#    - Scikit Getting Started: ml-toolkits/sk_getting-started.md
+#    - Scikit Examples: ml-toolkits/sk_examples.md
+#    - PyTorch Introduction: ml-toolkits/pt_introduction.md
+#    - PyTorch Getting Started: ml-toolkits/pt_getting-started.md
+#    - PyTorch Examples: ml-toolkits/pt_examples.md
+#    - TensorFlow Introduction: ml-toolkits/tf_introduction.md
+#    - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
+#    - TensorFlow Examples: ml-toolkits/tf_examples.md
+  - Datasets:
+#    - List of datasets: datasets/datasets.md
+    - STAC Catalog: guide/fic_catalog.md
+    - Adding Datasets to FAIRiCUBE: guide/adding_datastes.md
+  - FAIRiCUBE UseCases:
+    - Urban adaptation to climate change: use_cases/urban_climate.md
+    - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
+    - Biodiversity and agriculture nexus: use_cases/biodiversity_agri.md
+    - Biodiversity occurrence cubes: use_cases/biodiversity_cubes.md
+    - Drosophila Genetics: use_cases/drosophila_genetics.md
+  - External resources:
+    - EOxHub / EuroDataCube: external_resource/edc_access.md
+    - Sentinel-Hub: external_resource/sentinelhub_access.md
+
+
+plugins:
+  - search
+  - mkapi
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+  - attr_list
