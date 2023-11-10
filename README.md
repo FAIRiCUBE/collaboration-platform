@@ -12,5 +12,5 @@ or
 
     $ pip3 install mkdocs mkapi
 
-Changes and additions to the platform can be done through submitting requests to this repository.  
+Changes and additions to the platform can be done by submitting requests to this repository.  
 
