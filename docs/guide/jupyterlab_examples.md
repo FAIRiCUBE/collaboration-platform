@@ -9,7 +9,7 @@ These notebooks are provided by FAIRiCUBE members and by the Euro Data Cube team
 
 * [from TIFF to COG](https://github.com/FAIRiCUBE/common-code/tree/main/fromTIFF_to_COG)
 * [GeoTIFF generation](https://github.com/FAIRiCUBE/common-code/tree/main/geotiff-generation/code)
-* [PyTorch Verification](https://github.com/FAIRiCUBE/common-code/tree/main/pytorch-verification). *Plese Note:  PyTorch is currently not available in FAIRiCUBE.*
+* [PyTorch Verification](https://github.com/FAIRiCUBE/common-code/tree/main/pytorch-verification). *Please Note:  PyTorch is currently not available in FAIRiCUBE.*
 
 **Other useful, non-notebook examples & INSTRUCTIONS provided by FAIRiCUBE:**
 

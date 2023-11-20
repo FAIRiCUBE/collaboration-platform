@@ -25,7 +25,7 @@ One may also want to reuse information gained during model training for a second
 * [MLflow Introduction](mlflow_introduction.md)
 * [ML-Toolkits Getting Started](ml_getting-started.md)
 * [ML Toolkit Examples](ml_examples.md)
-* TensoBoard Introduction (work in progress)
+* TensorBoard Introduction (work in progress)
 * TensorFlow Introduction (work in progress)
 * TensorFlow Getting Started (work in progress)
 * TensorFlow Examples (work in progress)
