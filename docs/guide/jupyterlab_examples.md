@@ -7,7 +7,17 @@ These notebooks are provided by FAIRiCUBE members and by the Euro Data Cube team
 * [FARiCUBE - Sentinel Hub - data access using xcube](https://github.com/eurodatacube/notebooks/blob/master/notebooks/contributions/FAIRiCUBE/FAIRiCUBE_data_access_demonstration.ipynb)
 
 
-Many more useful notebooks provided by EDC and DeepESDL can be found at:<br>
+* [from TIFF to COG](https://github.com/FAIRiCUBE/common-code/tree/main/fromTIFF_to_COG)
+* [GeoTIFF generation](https://github.com/FAIRiCUBE/common-code/tree/main/geotiff-generation/code)
+* [PyTorch Verification](https://github.com/FAIRiCUBE/common-code/tree/main/pytorch-verification). *Plese Note:  PyTorch is currently not available in FAIRiCUBE.*
+
+**Other useful, non-notebook examples & INSTRUCTIONS provided by FAIRiCUBE:**
+
+* [Create binary layers from data layer](https://github.com/FAIRiCUBE/common-code/tree/main/QGIS-functionality)
+* [Record computational demands automatically](https://github.com/FAIRiCUBE/common-code/tree/main/record-computational-demands-automatically)
+
+
+**Many more useful notebooks provided by EDC and DeepESDL** can be found at:<br>
 *Note: These notebooks might not run immediately, but are good to check and learn methods.*
 
 * [EDC currated notebooks](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated)

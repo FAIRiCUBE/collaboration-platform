@@ -16,6 +16,7 @@ nav:
 #    - Services and Tools: design/fic_services-and-tools.md
   - User guide:
     - FAIRiCUBE Catalog: guide/fic_catalog.md
+    - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
     - FAIRiCUBE Lab: guide/jupyterlab.md
     - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
     - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
@@ -39,10 +40,10 @@ nav:
 #    - TensorFlow Introduction: ml-toolkits/tf_introduction.md
 #    - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
 #    - TensorFlow Examples: ml-toolkits/tf_examples.md
-  - Datasets:
+#  - Datasets:
 #    - List of datasets: datasets/datasets.md
-    - STAC Catalog: guide/fic_catalog.md
-    - Adding Datasets to FAIRiCUBE: guide/adding_datastes.md
+#    - STAC Catalog: guide/fic_catalog.md
+
   - FAIRiCUBE UseCases:
     - Urban adaptation to climate change: use_cases/urban_climate.md
     - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
