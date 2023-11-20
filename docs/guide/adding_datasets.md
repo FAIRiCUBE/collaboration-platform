@@ -14,7 +14,7 @@ Two type of request are provided by FAIRiCUBE:
     * *Issue resource-metadata:* [https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=metadata-request.yml](https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=metadata-request.yml)
     * *Issue codelist change:* [https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=codelist_change_proposal.yml](https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=codelist_change_proposal.yml)
 
-In general, before submitting a request, a user wishing to use a specific dataset or resource on the FAIRiCUBE Hub should first take a look at the [FAIRiCUBE Catalog](https://catalog.fairicube.eu) to see if the dataset or resource is already available and ready to be used.
+In general, before submitting a request, a user wishing to use a specific dataset or resource on the FAIRiCUBE Hub should first take a look at the [FAIRiCUBE Catalog](https://catalog.eoxhub.fairicube.eu/) to see if the dataset or resource is already available and ready to be used.
 
 
 
@@ -28,9 +28,23 @@ The following procedure for a **Data Ingestion Request** has been set up and is 
 
 ![Data Ingestion Request Procedure](../images/fairicube_data_ingestion_request_flowchart.png)
 
+The next Figure shows the Data request WebGUI Landing page, providing also a listing of available datasets, and allowing for editing of already provided metadata.
+
+![Data request WebGUI - Landing Page](../images/data_ingestion_request_webgui_1.png)
+
+The next Figure shows the Entry Form of the Data request WebGUI. Here the necessary metadata has to be provided in order to enable the data ingestion process.<br>
+In the *editing* mode the already provided metadata will be filled into the respective fields.
+
+![Data request WebGUI - Landing Page](../images/data_ingestion_request_webgui_2.png)
+
+
+![Data request WebGUI - Landing Page](../images/data_ingestion_request_webgui_3.png)
+
+<br>
+
 Once all metadata and data requirements are fulfilled and confirmed by the data requester, the ingestion handling partners will perform the merge and the Pull request will be closed. The respective branch in GitHub will also be closed and deleted. Any issues and discussions associated with the Pull Request are still available after the branch has been merged and deleted.
 
-When the merge is done the newly submitted data is available as a STAC item to the STAC Browser. The dynamic catalog using the STAC Browser is currently deployed at [https://catalog.fairicube.eu](https://catalog.fairicube.eu). The STAC Browser provides additional features like searching, which are not available in the static STAC catalog. The next screenshots provide various views on the STAC Browser pages showing available catalogs and the search interface.
+When the merge is done the newly submitted data is available as a STAC item to the STAC Browser. The dynamic catalog using the STAC Browser is currently deployed at [FAIRiCUBE Catalog](https://catalog.eoxhub.fairicube.eu/). The STAC Browser provides additional features like searching, which are not available in the static STAC catalog.
 
 
 
@@ -44,7 +58,7 @@ To add **new resource-metadata** to the FAIRiCUBE Catalog or request a codelist 
 * The resource-metadata request procedure relies on GitHub, where each request is handled as an issue created by the resource requester, and then addressed together with one of the ingestion handling partners.
 * A resource-metadata request issue template has been created to assure that the data requester provides all required information.
 * The GitHub issue management is used for problems raised, addressed, and solved pertaining to a specific data request, providing full traceability.
-* Once all uncertainties are resolved the GitHub issue is labelled approved, which will trigger the ingestion process.
+* Once all uncertainties are resolved the GitHub issue is labeled approved, which will trigger the ingestion process.
 
 The next Figure shows the Resource-metadata GitHub Issues page:
 
