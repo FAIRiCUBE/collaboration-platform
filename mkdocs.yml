@@ -1,4 +1,4 @@
-site_name: FAIRiCUBE-HUB Documentation
+site_name: FAIRiCUBE-HUB - Getting started, Examples & How To's
 #site_url: https://fairicube.readthedocs.io
 #repo_url: https://github.com/fairicube/fairicubehub-doc
 #edit_uri: edit/main/docs
@@ -9,9 +9,10 @@ nav:
   - Home:
     - About FAIRiCUBE: index.md
     - Overview: guide/overview.md
-  - Design:
+  - Introduction:
     - FAIRiCUBE Hub: guide/fic_hub.md
     - Context: design/fic_context.md
+    - Datacubes: guide/datacubes.md
 #    - Architecture: design/fic_architecture.md
 #    - Services and Tools: design/fic_services-and-tools.md
   - User guide:
@@ -20,7 +21,7 @@ nav:
     - FAIRiCUBE Lab: guide/jupyterlab.md
     - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
     - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
-    - Datacubes: guide/datacubes.md
+    - Contributing Docs or Examples: guide/contibute_doc.md
     - rasdaman datacubes: guide/rasdaman_cube.md
     - xcube utilization:  guide/xcube_generation.md
 #    - ML Toolkits: guide/ml-toolkits.md
