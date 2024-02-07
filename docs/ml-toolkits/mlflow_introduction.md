@@ -13,7 +13,7 @@ At a high level, MLflow consists of four main components: tracking, projects, mo
 
 The MLflow tracking component (here an example form DeepESDL) allows users to log and track training parameters, code, and output metrics from their machine learning experiments.
 
-![mlflow.png](../../images/mlflow.png)
+![mlflow.png](../images/mlflow.png)
 <p align = "center">
   <i>Collaborative Experiment Tracking with MLflow</i>
 </p>
