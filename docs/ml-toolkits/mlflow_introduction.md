@@ -4,7 +4,7 @@ Each Use Case team decides which apps shall be made available. One of these apps
 
 MLflow is an open-source platform for managing the end-to-end machine learning lifecycle. It allows the user to track experiments, package code into reproducible runs, and share and deploy models.<br>
 MLflow can be incorporated into Jupyter notebooks or other code and supports multiple programming languages. MLflow provides a comprehensive solution for managing the machine learning lifecycle, from tracking experiments to deploying models. It is widely used in industry and academia and is constantly evolving to support the latest trends and technologies in the field of machine learning.<br>
-Mlflow supports the MLOps pipelines particularly to log and evaluate experiment runs as well as to store models in a registry​. Persistent mlflow deployments are made available on team level to allow each team member to compare their experiments with those of the other team members and to use the trained models of others.
+MLflow supports the MLOps pipelines particularly to log and evaluate experiment runs as well as to store models in a registry​. Persistent MLflow deployments are made available on team level to allow each team member to compare their experiments with those of the other team members and to use the trained models of others.
 
 At a high level, MLflow consists of four main components: tracking, projects, models, and registry. All components can be accessed via Python code in the FAIRiCUBE Lab.
 
@@ -15,7 +15,7 @@ The MLflow tracking component (here an example form DeepESDL) allows users to lo
 
 ![mlflow.png](../../images/mlflow.png)
 <p align = "center">
-  <i>Collaborative Experiment Tracking with mlflow</i>
+  <i>Collaborative Experiment Tracking with MLflow</i>
 </p>
 
 The tracking component provides an API for Python, R, and other languages, as well as an UI for visualising experiments and comparing different runs. The tracking server can store data in various backends, including a local file system, an Amazon S3 bucket, or a PostgreSQL database.

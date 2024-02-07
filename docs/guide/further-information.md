@@ -6,6 +6,9 @@
   a short introductory video tutorial.
 * The [xcube documentation](https://xcube.readthedocs.io/): user
   guide and API reference for the xcube libraries.
+* The [Cloud-Optimized Geospatial Formats Guide](https://guide.cloudnativegeo.org/):
+  Methods for Generating and Testing Cloud-Optimized Geospatial Formats
+
 
 <!--
   * [PyTorch Tutorials](https://pytorch.org/tutorials/)

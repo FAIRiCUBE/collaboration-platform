@@ -26,11 +26,12 @@ nav:
     - xcube utilization:  guide/xcube_generation.md
 #    - ML Toolkits: guide/ml-toolkits.md
     - Further information: guide/further-information.md
-  - ML-Toolkits:
-    - ML-Toolkits Introduction: ml-toolkits/ml_introduction.md
+  - ML-Tools:
+    - ML-Tools Introduction: ml-toolkits/ml_introduction.md
     - MLflow Introduction: ml-toolkits/mlflow_introduction.md
-    - ML-Toolkits Getting Started: ml-toolkits/ml_getting-started.md
-    - ML-Toolkit Examples: ml-toolkits/ml_examples.md
+    - ML-Tools Getting Started: ml-toolkits/ml_getting-started.md
+    - ML-Tool Examples: ml-toolkits/ml_examples.md
+    - TensorBoard Introduction: ml-toolkits/tb_introduction.md
 ##    - ML Recommendations and Considerations: ml-toolkit/ml_recommendations.md
 #    - Scikit Introduction: ml-toolkits/sk_introduction.md
 #    - Scikit Getting Started: ml-toolkits/sk_getting-started.md
