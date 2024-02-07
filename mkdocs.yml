@@ -16,6 +16,7 @@ nav:
 #    - Architecture: design/fic_architecture.md
 #    - Services and Tools: design/fic_services-and-tools.md
   - User guide:
+    - How to provide inptu to this documentation: guide/howto_readthedocs.md
     - FAIRiCUBE Catalog: guide/fic_catalog.md
     - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
     - FAIRiCUBE Lab: guide/jupyterlab.md
