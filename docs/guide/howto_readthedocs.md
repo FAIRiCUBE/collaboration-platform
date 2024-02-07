@@ -41,7 +41,7 @@ Before you begin, please make sure that you **start a new branch** for your addi
 
     $> git checkout -b  <new_branch_name>
 <br>
-*Note: The Structure of the collaboration site (provided on the left side) is defined in the* _**mkdocs.yml**_ *file.*<br>
+_**Note:**_ *The Structure of the collaboration site (provided on the left side) is defined in the* _**mkdocs.yml**_ *file.*<br>
 *Changes to this structure are not immediately viewable under **http://localhost:8001/**.* <br>
 *In order to see you changes there, you need to restart the local web-server ('mkdocs serve -a localhost:8001').*<br>
 *All other changes to the documents are immediately rendered locally.*
@@ -56,13 +56,21 @@ First you need to commit the changes to your local git branch. Please always pro
 
 Once the commit is performed, you may push your changs to the github repository
 
+For the first pusgh of your branch use:
+
     $> git push --set-upstream origin   <new_branch_name>
+
+For later pushes, you may just use
+
+    $> git push
 
 
 Once the **push** was successful you need to create a **merge request** for your submitted changes. Best is to do this directly at the website of the [collaboration-platform](https://github.com/FAIRiCUBE/collaboration-platform) repository.
 At the website click on *"Pull Requests"* then click the Button *"Create Pull Request"*. Thereafter choose **your branch name** as source and **main** as target.
 
 Once the repository owner accepts your merge request, the content will be merged and automatically deployed to *readthedocs.io* and soon after it will be available at [https://fairicube.readthedocs.io](https://fairicube.readthedocs.io).
+
+_**Note:**_ *After  a successful merge the repository owner will delete your submitted branch!*
 
 
 <br>
@@ -72,6 +80,9 @@ Once the repository owner accepts your merge request, the content will be merged
 * Please try to keep the structure as much as possible. Try not to introduce unnecessary directories.
 * Use issues in the github [collaboration-platform](https://github.com/FAIRiCUBE/collaboration-platform) repository  for questions or for discussion.
 * The general *Netiquette* applies
+
+
+<br>
 
 
 
