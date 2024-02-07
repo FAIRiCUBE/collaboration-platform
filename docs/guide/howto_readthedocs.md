@@ -1,4 +1,4 @@
-# How to provide input/content to this FAIRiCUBE-HUB Community collaboration platform
+# How to contribute to the FAIRiCUBE-HUB Community collaboration platform
 
 The content of this collaboration platform is managed via a github repository, which is connected to [ReadTheDocs](https://about.readthedocs.com) resulting in automatically deployments of newly merged contents to its final destination: the [FAIRiCUBE-HUB - Getting started, Examples & How To's](https://fairicube.readthedocs.io/en/latest/)
 
@@ -39,7 +39,7 @@ This allows it to easily check locally for all the formatting , structuring, etc
 
 Before you begin, please make sure that you **start a new branch** for your additions/editing.
 
-    $> git checkout -b  <new_feature_name>
+    $> git checkout -b  <new_branch_name>
 <br>
 *Note: The Structure of the collaboration site (provided on the left side) is defined in the* _**mkdocs.yml**_ *file.*<br>
 *Changes to this structure are not immediately viewable under **http://localhost:8001/**.* <br>
@@ -48,7 +48,21 @@ Before you begin, please make sure that you **start a new branch** for your addi
 
 Now you can start creating your content or edit already existing information.
 
-Once you finished all your edits or newly created documents and have thoroughly checked them in the local instance, you can submit your input to the git repository to be merged into the main branch.
+Once you finished all your edits or newly created documents and have thoroughly checked them in your local instance, you may submit your input to the git repository to be merged into the main branch.
+
+First you need to commit the changes to your local git branch. Please always provide a meaningful commit-message with your commits.
+
+    $> git commit -m "this is an explanation how to commit changes"  <doument_1> <document_2> ....
+
+Once the commit is performed, you may push your changs to the github repository
+
+    $> git push --set-upstream origin   <new_branch_name>
+
+
+Once the **push** was successful you need to create a **merge request** for your submitted changes. Best is to do this directly at the website of the [collaboration-platform](https://github.com/FAIRiCUBE/collaboration-platform) repository.
+At the website click on *"Pull Requests"* then click the Button *"Create Pull Request"*. Thereafter choose **your branch name** as source and **main** as target.
+
+Once the repository owner accepts your merge request, the content will be merged and automatically deployed to *readthedocs.io* and soon after it will be available at [https://fairicube.readthedocs.io](https://fairicube.readthedocs.io).
 
 
 <br>
@@ -56,12 +70,8 @@ Once you finished all your edits or newly created documents and have thoroughly 
 ##### Some rules we ask you to follow:
 
 * Please try to keep the structure as much as possible. Try not to introduce unnecessary directories.
-* xx
-
-
-
-
-
+* Use issues in the github [collaboration-platform](https://github.com/FAIRiCUBE/collaboration-platform) repository  for questions or for discussion.
+* The general *Netiquette* applies
 
 
 
