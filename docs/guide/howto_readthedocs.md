@@ -5,6 +5,7 @@ The content of this collaboration platform is managed via a github repository, w
 All documents are provided as Markdown-files (i.e. *.md).
 Help with the Markdown-syntax can be found [here](https://daringfireball.net/projects/markdown/syntax)
 
+To contribute to this documentation, you need to:
 
 ## First, clone this repository to your local computer:
 
@@ -16,6 +17,8 @@ or by using any other of the other methods offered by github.
 
 
 ## Building the docs (for local usage/evaluation)
+
+The following procedure allows you to view the 'real look' of your editied/created Markdown documents of your local instance, prior to submitting them to the github repository
 
     $> conda install -c conda-forge mkdocs mkapi
 or
@@ -37,7 +40,7 @@ This allows it to easily check locally for all the formatting , structuring, etc
 
 ## Start providing/editing documents
 
-Before you begin, please make sure that you **start a new branch** for your additions/editing.
+Before you begin, please make sure that you **START A NEW BRANCH** for your additions/editing.
 
     $> git checkout -b  <new_branch_name>
 <br>
@@ -56,7 +59,7 @@ First you need to commit the changes to your local git branch. Please always pro
 
 Once the commit is performed, you may push your changs to the github repository
 
-For the first pusgh of your branch use:
+For the first push of your branch use:
 
     $> git push --set-upstream origin   <new_branch_name>
 
@@ -70,7 +73,9 @@ At the website click on *"Pull Requests"* then click the Button *"Create Pull Re
 
 Once the repository owner accepts your merge request, the content will be merged and automatically deployed to *readthedocs.io* and soon after it will be available at [https://fairicube.readthedocs.io](https://fairicube.readthedocs.io).
 
-_**Note:**_ *After  a successful merge the repository owner will delete your submitted branch!*
+_**Note:**_ *After  a successful merge the repository owner will delete your submitted branch! <br> You should do the same in your local instance by issuing:*
+
+    $> git branch -d <your_branch_name>
 
 
 <br>

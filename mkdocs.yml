@@ -16,13 +16,17 @@ nav:
 #    - Architecture: design/fic_architecture.md
 #    - Services and Tools: design/fic_services-and-tools.md
   - User guide:
+#    - Contributing Docs or Examples: guide/contibute_doc.md
     - How to contribute to this documentation: guide/howto_readthedocs.md
+    - Self-Training Library: guide/self_training_1.md
+    - Self-Training Library: guide/self_training_2.md
+    - Self-Training Library: guide/self_training_3.md
+    - Self-Training Library: guide/self_training_4.md
+    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
     - FAIRiCUBE Catalog: guide/fic_catalog.md
     - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
     - FAIRiCUBE Lab: guide/jupyterlab.md
     - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
-    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
-    - Contributing Docs or Examples: guide/contibute_doc.md
     - rasdaman datacubes: guide/rasdaman_cube.md
     - xcube utilization:  guide/xcube_generation.md
 #    - ML Toolkits: guide/ml-toolkits.md
