@@ -9,3 +9,4 @@ Below there is a list of related links:
 - [Convolutional Neural Networks](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939)
 - [LSTM](https://www.analyticsvidhya.com/blog/2021/03/introduction-to-long-short-term-memory-lstm/)
 - [LLM](https://medium.com/@balci.pelin/llm-introduction-7ededa51b78b)
+
