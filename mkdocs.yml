@@ -18,10 +18,9 @@ nav:
   - User guide:
 #    - Contributing Docs or Examples: guide/contibute_doc.md
     - How to contribute to this documentation: guide/howto_readthedocs.md
-    - Self-Training Library: guide/self_training_1.md
-    - Self-Training Library: guide/self_training_2.md
-    - Self-Training Library: guide/self_training_3.md
-    - Self-Training Library: guide/self_training_4.md
+    - Self-Training Library: guide/preprocessing.md
+    - Self-Training Library: guide/machinelearning.md
+    - Self-Training Library: guide/deeplearning.md
     - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
     - FAIRiCUBE Catalog: guide/fic_catalog.md
     - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
