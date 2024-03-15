@@ -16,17 +16,22 @@ nav:
 #    - Architecture: design/fic_architecture.md
 #    - Services and Tools: design/fic_services-and-tools.md
   - User guide:
+#    - Contributing Docs or Examples: guide/contibute_doc.md
     - How to contribute to this documentation: guide/howto_readthedocs.md
+    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
     - FAIRiCUBE Catalog: guide/fic_catalog.md
     - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
     - FAIRiCUBE Lab: guide/jupyterlab.md
     - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
-    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
-    - Contributing Docs or Examples: guide/contibute_doc.md
     - rasdaman datacubes: guide/rasdaman_cube.md
     - xcube utilization:  guide/xcube_generation.md
 #    - ML Toolkits: guide/ml-toolkits.md
     - Further information: guide/further-information.md
+  - Self-Training:
+    - Pre-Processing: guide/preprocessing.md
+    - Machine Learning: guide/machinelearning.md
+    - Deep Learning: guide/deeplearning.md
+    - EO-College - Cube & Clouds: guide/eo_cubes_clouds.md
   - ML-Tools:
     - ML-Tools Introduction: ml-toolkits/ml_introduction.md
     - MLflow Introduction: ml-toolkits/mlflow_introduction.md
