@@ -9,7 +9,7 @@ If a dataset or a process/analysis resource is not already available in FAIRiCUB
 Two type of request are provided by FAIRiCUBE:
 
 * **data-requests:** Request for data to be made available within FAIRiCUBE Lab.
-    * Such a data request can be initiated via a provided WebGUI available at [https://fairicube.eu/datarequest.html](https://fairicube.eu/datarequest.html)
+    * Such a data request can be initiated via a provided WebGUI available at [https://catalog-editor.eoxhub.fairicube.eu/](https://catalog-editor.eoxhub.fairicube.eu/).
 * **resource-metadata**: Collect information for processing/analysis resources as well as propose a change to a codelist. [https://github.com/FAIRiCUBE/resource-metadata](https://github.com/FAIRiCUBE/resource-metadata)
     * *Issue resource-metadata:* [https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=metadata-request.yml](https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=metadata-request.yml)
     * *Issue codelist change:* [https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=codelist_change_proposal.yml](https://github.com/FAIRiCUBE/resource-metadata/issues/new?assignees=&labels=&projects=&template=codelist_change_proposal.yml)
@@ -20,7 +20,7 @@ In general, before submitting a request, a user wishing to use a specific datase
 
 #### Data Request
 
-In the case a user wants to have a additional dataset added, the user needs to create a data request using the data request WebGUI [https://fairicube.eu/datarequest.html](https://fairicube.eu/datarequest.html), which ensures that all required metadata is provided, proper tags are added, and all relevant people are notified. With the submission of the WebGUI form a GitHub Pull Request is issued as a new branch which the user is automatically watching and thus receiving notifications of updates depending on their GitHub notifications configuration.
+In the case a user wants to have a additional dataset added, the user needs to create a data request using the data request WebGUI [https://catalog-editor.eoxhub.fairicube.eu/](https://catalog-editor.eoxhub.fairicube.eu/), which ensures that all required metadata is provided, proper tags are added, and all relevant people are notified. With the submission of the WebGUI form a GitHub Pull Request is issued as a new branch which the user is automatically watching and thus receiving notifications of updates depending on their GitHub notifications configuration.
 
 Any new data request is addressed by the requester together with one of the ingestion handling partners. Any progress, problems, discussions, etc. shall be documented in an GitHub issue associated to the respective Pull Request, so that everybody interested can follow the progress and provide additional feedback or information as necessary.
 
@@ -28,11 +28,11 @@ The following procedure for a **Data Ingestion Request** has been set up and is 
 
 ![Data Ingestion Request Procedure](../images/fairicube_data_ingestion_request_flowchart.png)
 
-The next Figure shows the Data request WebGUI Landing page, providing also a listing of available datasets, and allowing for editing of already provided metadata.
+The next Figure shows the Data request WebGUI Landing page [Catalog Editor](https://catalog-editor.eoxhub.fairicube.eu/), providing also a listing of available datasets, and allowing for editing of already provided metadata.
 
 ![Data request WebGUI - Landing Page](../images/data_ingestion_request_webgui_1.png)
 
-The next Figure shows the Entry Form of the Data request WebGUI. Here the necessary metadata has to be provided in order to enable the data ingestion process.<br>
+The next Figure shows the Entry Form of the Data request WebGUI. Here the necessary metadata has to be provided for each dataset, in order to enable the data ingestion process.<br>
 In the *editing* mode the already provided metadata will be filled into the respective fields.
 
 ![Data request WebGUI - Landing Page](../images/data_ingestion_request_webgui_2.png)
