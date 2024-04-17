@@ -9,7 +9,7 @@ Below there is a list of related links:
 - [Performance Metrics](https://neptune.ai/blog/performance-metrics-in-machine-learning-complete-guide)
 - [Overfitting vs Underfitting in Machine Learning](https://neptune.ai/blog/overfitting-vs-underfitting-in-machine-learning)
 
-- To visualize the ML resources of the project, [open the Query Tool](https://fairicube-kb.dev.epsilon-italia.it/query-tool-almade) and run the "All ML resources" predifined query from the Query list, as illustrated in the picture below
+To visualize the ML resources of the project, [open the Query Tool](https://fairicube-kb.dev.epsilon-italia.it/query-tool-almade) and run the "All ML resources" predifined query from the Query list, as illustrated in the picture below
   
  ![image](https://github.com/FAIRiCUBE/collaboration-platform/assets/13329248/779ced4c-9b32-4db7-b5d7-98c6cadbe2fc)
 
