@@ -9,3 +9,7 @@ Below there is a list of related links:
 * [Feature Selection Techniques](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 * [Data Augmentation](https://neptune.ai/blog/data-augmentation-in-python)
 
+To visualize the Pre-processing resources of the project, [open the Query Tool](https://fairicube-kb.dev.epsilon-italia.it/query-tool-almade) and run the "All Preprocessing resources" predifined query from the Query list, as illustrated in the picture below
+
+![image](https://github.com/FAIRiCUBE/collaboration-platform/assets/13329248/572863c8-f1f0-4215-a544-95072309bdfb)
+
