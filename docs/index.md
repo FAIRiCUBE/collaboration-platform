@@ -13,11 +13,11 @@ The objective is the creation of a FAIRiCUBE Hub, a crosscutting platform and fr
 
 FAIRiCUBE use cases address EU green deal action items, focusing on urban and regional scale. The use cases are:
 
-1. [Spatial and temporal assessment of neighbourhood building stock](use_cases/buildings.md)
-2. [Biodiversity occurrence cubes](use_cases/biodiversity_cubes.md)
-3. [Biodiversity and agriculture nexus](use_cases/biodiversity_agri.md)
-4. [Urban adaptation to climate change](use_cases/urban_climate.md)
-5. [Drosophila Genetics](use_cases/drosophila_genetics.md)
+1. [UC1 Urban adaptation to climate change](use_cases/urban_climate.md)
+2. [UC2 Biodiversity and agriculture nexus (regional)](use_cases/biodiversity_agri.md)
+3. [UC3 Environmental Adaptation Genomics in Drosophila (urban, biodiversity)](use_cases/drosophila_genetics.md)
+4. [UC4 Spatial and temporal assessment of neighbourhood building stock (urban, energy, circular economy)](use_cases/buildings.md)
+5. [UC5 Validation of Phytosociological Methods through Occurrence Cubes (urban/regional focus, biodiversity)](use_cases/biodiversity_cubes.md)
 
 
 ## Datacubes
