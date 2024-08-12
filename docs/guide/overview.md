@@ -10,7 +10,7 @@ The growing set of FAIRiCUBE's general functionalities comprises:
 * [FAIRiCUBE Lab Notebook Examples](jupyterlab_examples.md)
 * [FAIRiCUBE Knowledge Base](knowledgebase.md)
 * [Datacubes](datacubes.md)
-* [rasdaman datacubes](rasdaman_cube.md)
+* [FAIRiCUBE Rasdaman Datacubes](rasdaman_cube.md)
 * [xcube utilization](xcube_generation.md)
 * [ML Toolkits](../ml-toolkits/ml_introduction.md)
 * [Further information](further-information.md)
