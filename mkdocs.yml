@@ -2,7 +2,7 @@ site_name: FAIRiCUBE-HUB - Getting started, Examples & How To's
 #site_url: https://fairicube.readthedocs.io
 #repo_url: https://github.com/fairicube/fairicubehub-doc
 #edit_uri: edit/main/docs
-copyright: Copyright © 2023 by the FAIRiCUBE Team
+copyright: Copyright © 2023-2024 by the FAIRiCUBE Team
 theme: readthedocs  # alternative: mkdocs
 
 nav:
@@ -23,6 +23,7 @@ nav:
     - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
     - FAIRiCUBE Lab: guide/jupyterlab.md
     - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
+    - Storage: guide/storage.md
     - rasdaman datacubes: guide/rasdaman_cube.md
     - xcube utilization:  guide/xcube_generation.md
 #    - ML Toolkits: guide/ml-toolkits.md

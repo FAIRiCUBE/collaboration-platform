@@ -20,7 +20,7 @@ These notebooks are provided by FAIRiCUBE members and by the Euro Data Cube team
 **Many more useful notebooks provided by EDC and DeepESDL** can be found at:<br>
 *Note: These notebooks might not run immediately, but are good to check and learn methods.*
 
-* [EDC currated notebooks](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated)
+* [EDC curated notebooks](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated)
 * [EDC contributed notebooks](https://github.com/eurodatacube/notebooks/tree/master/notebooks/contributions)
 * [DeepESDL notebooks](https://github.com/deepesdl/deepesdl-doc/tree/main/notebooks)
 * [DeepESDL user notebooks](https://github.com/deepesdl/deepesdl-doc/tree/main/notebooks_user_experience)
