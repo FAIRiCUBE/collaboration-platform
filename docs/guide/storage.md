@@ -53,4 +53,4 @@ Buckets can be easily configured as origin for the [CloudFront CDN](https://aws.
 
 ### Presigned URLs
 
-[Presigned URLs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html) are ideal for time-limited sharing. Note that costs are still incurred in this option.
+[Presigned URLs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html) are ideal for time-limited sharing. Note that costs are still incurred with using presigned URLs.
