@@ -3,6 +3,7 @@
 Two types of storage, "File Storage" and "Object Storage", are provided with slightly different capabilities.
 
 **What storage to use:**
+
 * Do I need the data only locally, i.e., in JupyterLab? --> Use your local workspace
 * Do I want to share the data with all users of FAIRiCUBE locally? --> Use the shared folder
 * Do I want to share the data with all users in my Use Case or do I need external access like via Sentinel Hub services? --> Use the UC bucket
