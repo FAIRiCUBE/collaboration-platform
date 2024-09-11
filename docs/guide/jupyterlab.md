@@ -50,15 +50,15 @@ Currently these FAIRiCUBE Use Case specific environments are provided which can 
 
 ### JupyterLab workspace launcher
 
-The launcher provides access to various Jupyter Notebooks, tools (eg. console, VS-Code) and applications (eg. MLflow, TensorBoard, NotebookViewer).
+The launcher provides access to various Jupyter Notebooks, tools (e.g. console, VS-Code), and applications (e.g. MLflow, TensorBoard, NotebookViewer) as configured.
 
-Furthermore access to a shared drive (Object storage) is provided providing direct access to the provided datasets as well as to Machine learning Notebooks.
+Furthermore it shows the files in the [local storage](storage.md) and, if configured, provides access to a shared folder using [Object storage](storage.md) granting direct access to the provided datasets as well as to Machine Learning Notebooks.
 
 <p align="center">
     <img src="../../images/JupyterLab_workspace_launcher.png" alt="JupyterLab Workspace Notebook Launcher"/>
 </p>
 
-Here the users can develop and run their own code as well as share it with ohter FAIRiCUBE users or make them availabe via a curated shared folder.
+Here the users can develop and run their own code as well as share it with other FAIRiCUBE users or make them available via a curated shared folder again leveraging [Object storage](object_storage.md).
 
 
 ### JupyterLab workspace monitoring
@@ -82,10 +82,10 @@ The correct way to end a session is to execute the following procedure:
     <img src="../../images/JupyterHub_start-stop_server.png" alt="JupyterHub_start-stop_server.png"/>
 </p>
 
-This ensures that no unnecessary costs are incured due to a forgotten session (e.g. an open Tab in your Browser).
+This ensures that no unnecessary costs are incurred due to a forgotten session (e.g. an open Tab in your Browser).
 In any case, unused session will be closed (culling) after a pre-defined time.
 
-Once the Server has stopped (see Figure in next section) you can regularily `Log Out` using the `Logout` button located in the Top-right corner.
+Once the Server has stopped (see Figure in next section) you can regularly `Log Out` using the `Logout` button located in the Top-right corner.
 
 
 ### Changing a JupyterLab profile
