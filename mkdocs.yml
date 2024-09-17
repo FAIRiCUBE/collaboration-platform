@@ -3,64 +3,75 @@ site_name: FAIRiCUBE-HUB - Getting started, Examples & How To's
 #repo_url: https://github.com/fairicube/fairicubehub-doc
 #edit_uri: edit/main/docs
 copyright: Copyright © 2023-2024 by the FAIRiCUBE Team
-theme: readthedocs  # alternative: mkdocs
+theme: readthedocs  # alternative: mkdocs readthedocs
 
 nav:
-  - Home:
-    - About FAIRiCUBE: index.md
-    - Overview: guide/overview.md
-  - Introduction:
-    - FAIRiCUBE Hub: guide/fic_hub.md
-    - Context: design/fic_context.md
-    - Datacubes: guide/datacubes.md
-#    - Architecture: design/fic_architecture.md
-#    - Services and Tools: design/fic_services-and-tools.md
+  - OVERVIEW:
+    - FAIRiCUBE Knowledge Base: index.md
+    - About FAIRiCUBE project: overview/about_fic.md
+    - FAIRiCUBE Hub: overview/fic_hub.md
+    - FAIRiCUBE Hub platform: overview/fic_platform.md
+    - GeoDataCubes: overview/geodatacubes.md
+    - Machine Learning: overview/machine_learning.md
+  - FAIRiCUBE USECASES:
+    - Urban adaptation to climate change - UC1: use_cases/urban_climate.md
+    - Biodiversity and agriculture nexus - UC2: use_cases/biodiversity_agri.md
+    - Drosophila Genetics - UC3: use_cases/drosophila_genetics.md
+    - Spatial and temporal assessment of neighbourhood building stock - UC4: use_cases/buildings.md
+    - Biodiversity occurrence cubes - UC5: use_cases/biodiversity_cubes.md
   - User guide:
-#    - Contributing Docs or Examples: guide/contibute_doc.md
-    - How to contribute to this documentation: guide/howto_readthedocs.md
-    - FAIRiCUBE Knowledge Base: guide/knowledgebase.md
-    - FAIRiCUBE Catalog: guide/fic_catalog.md
-    - Adding Datasets to FAIRiCUBE: guide/adding_datasets.md
-    - FAIRiCUBE Lab: guide/jupyterlab.md
-    - FAIRiCUBE Lab Notebook Examples: guide/jupyterlab_examples.md
-    - Storage: guide/storage.md
-    - rasdaman datacubes: guide/rasdaman_cube.md
-    - xcube utilization:  guide/xcube_generation.md
-#    - ML Toolkits: guide/ml-toolkits.md
-    - Further information: guide/further-information.md
+    - Introduction: user_guide/introduction.md
+    - FAIRiCUBE Catalog: user_guide/fic_catalog.md
+    - FAIRiCUBE Query Tool: user_guide/query_tool.md
+    - User and access management: user_guide/user_access_management.md
+    - Adding Datasets to FAIRiCUBE: user_guide/adding_datasets.md
+    - Adding Analysis and Processing resources to FAIRiCUBE: user_guide/adding_ap.md
+    - FAIRiCUBE EOX Lab: user_guide/eox_lab.md
+    - FAIRiCUBE Storage: user_guide/storage.md
+    - FAIRiCUBE Rasdaman Lab: user_guide/rasdaman_lab.md
+    - FAIRiCUBE Labs examples: user_guide/lab_examples.md
+    - How to contribute to this documentation: user_guide/howto_readthedocs.md
+    - How to reuse the FAIRiCUBE approach: user_guide/fic_approach.md
+    - Further information: user_guide/further-information.md
   - Self-Training:
-    - Pre-Processing: guide/preprocessing.md
-    - Machine Learning: guide/machinelearning.md
-    - Deep Learning: guide/deeplearning.md
-    - EO-College - Cube & Clouds: guide/eo_cubes_clouds.md
-  - ML-Tools:
-    - ML-Tools Introduction: ml-toolkits/ml_introduction.md
-    - MLflow Introduction: ml-toolkits/mlflow_introduction.md
-    - ML-Tools Getting Started: ml-toolkits/ml_getting-started.md
-    - ML-Tool Examples: ml-toolkits/ml_examples.md
-    - TensorBoard Introduction: ml-toolkits/tb_introduction.md
-##    - ML Recommendations and Considerations: ml-toolkit/ml_recommendations.md
-#    - Scikit Introduction: ml-toolkits/sk_introduction.md
-#    - Scikit Getting Started: ml-toolkits/sk_getting-started.md
-#    - Scikit Examples: ml-toolkits/sk_examples.md
-#    - PyTorch Introduction: ml-toolkits/pt_introduction.md
-#    - PyTorch Getting Started: ml-toolkits/pt_getting-started.md
-#    - PyTorch Examples: ml-toolkits/pt_examples.md
-#    - TensorFlow Introduction: ml-toolkits/tf_introduction.md
-#    - TensorFlow Getting Started: ml-toolkits/tf_getting-started.md
-#    - TensorFlow Examples: ml-toolkits/tf_examples.md
-#  - Datasets:
-#    - List of datasets: datasets/datasets.md
-#    - STAC Catalog: guide/fic_catalog.md
-
-  - FAIRiCUBE UseCases:
-    - Urban adaptation to climate change: use_cases/urban_climate.md
-    - Spatial and temporal assessment of neighbourhood building stock: use_cases/buildings.md
-    - Biodiversity and agriculture nexus: use_cases/biodiversity_agri.md
-    - Biodiversity occurrence cubes: use_cases/biodiversity_cubes.md
-    - Drosophila Genetics: use_cases/drosophila_genetics.md
-  - External resources:
+    - Introduction: self_training/introduction.md
+    - Pre-Processing: self_training/pre_processing.md
+    - Machine Learning: self_training/machine_learning.md
+    - Deep Learning: self_training/deep_learning.md
+    - GeoDataCubes: self_training/geodatacubes.md
+    - xcube: self_training/xcube.md
+    - EO-College - Cube & Clouds: self_training/eo_cubes_clouds.md
+  - AI TOOLKIT:
+    - Introduction: ai_toolkit/introduction.md
+    - Getting started with AI-toolkit: ai_toolkit/ai_toolkit_getting_started.md
+    - AI-toolkit examples: ai_toolkit/ai_toolkit_examples.md
+    - Introduction to scikit-learn: ai_toolkit/scikit_introduction.md
+    - Getting started with scikit-learn: ai_toolkit/scikit_getting_started.md
+    - Scikit-learn examples: ai_toolkit/scikit_examples.md
+    - Introduction to TensorFlow: ai_toolkit/tf_introduction.md
+    - Getting started with TensorFlow: ai_toolkit/tf_getting_started.md
+    - TensorFlow examples: ai_toolkit/tf_examples.md
+    - Introduction to PyTorch: ai_toolkit/pt_introduction.md
+    - Getting started with PyTorch: ai_toolkit/pt_getting_started.md
+    - PyTorch examples: ai_toolkit/pt_examples.md
+    - Introduction to MLflow: ai_toolkit/mlflow_introduction.md
+    - Introduction to TensorBoard: ai_toolkit/tb_introduction.md
+  - GEODATACUBES TOOLKIT: 
+    - Introduction: gdc_toolkit/introduction.md
+    - GDAL: gdc_toolkit/gdal.md
+    - Rasterio: gdc_toolkit/rasterio.md
+    - Xarray: gdc_toolkit/xarray.md
+  - LESSONS LEARNT AND TIPS&TRICKS:
+    - Introduction: lessons_learnt_tips_tricks/introduction.md
+    - How to speed-up NetCDF data loading and processing time on cloud environments: lessons_learnt_tips_tricks/climate_data_processing_with_dask_extremly_slow.md
+    - How to transform a GeoTiff file into a Cloud-Optimised-Geotiff: lessons_learnt_tips_tricks/from_tiff_to_cog.md
+    - How to check if a PyTorch installation is present and working: lessons_learnt_tips_tricks/pytorch_verification.md
+    - How to generate a GeoTIFF file from a NumPy array: lessons_learnt_tips_tricks/geotiff_generation.md
+    - How to create binary layers from data layer in QGIS: lessons_learnt_tips_tricks/binary_layers_from_data_layers.md
+  - EXTERNAL RESOURCES:
     - EOxHub / EuroDataCube: external_resource/edc_access.md
+    - FAIRiCUBE Rasdaman Datacubes: external_resource/rasdaman_platform.md
+    - Copernicus Hub: external_resource/copernicus_hub.md 
     - Sentinel-Hub: external_resource/sentinelhub_access.md
 
 
