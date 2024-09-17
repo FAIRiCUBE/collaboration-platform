@@ -4,15 +4,9 @@ This repository contains the source files for the FAIRiCUBE-HUB Community collab
 These act as the deliverable D4.5 in the FAIRiCUBE project.
 
 The Community collaboration platform is accessible at:  https://fairicube.readthedocs.io
-There you can also find a detailed description about 'How to contribute...'
 
+There you can also find a detailed description about ['How to contribute...'](/docs/user_guide/howto_readthedocs.md)
 
-## Building the docs
+**Note: The change request must be approved by the EPSIT team for optimal content management.**
 
-    $ conda install -c conda-forge mkdocs mkapi
-or
-
-    $ pip3 install mkdocs mkapi
-
-Changes and additions to the platform can be done by submitting requests to this repository.
 
