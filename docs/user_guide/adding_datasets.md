@@ -3,7 +3,7 @@
 The FAIRiCUBE Hub provides access to a wider variety of datasets, processes, and models. These can either be available local or external (federated) to FAIRiCUBE. External datasets are federated from the Euro Data Cube (EDC) or from the EarthServer Federation.
 The FAIRiCUBE Catalog holds metadata for datasets as well as processes. Datasets are either local or external ones. Processes are either algorithms provided mainly as Jupyter notebooks, invokable models, or specific deployed services or apps.
 
-For any Storage related questions consult the [Storage Section](https://fairicube.readthedocs.io/en/latest/user_guide/storage/).
+For any Storage related questions consult the [Storage Section](../user_guide/storage.md).
 
 If a dataset is not already available in FAIRiCUBE via one of the provided Datastores (e.g., AWS, DIASes, Euro Data Cube, EarthServer Fed., etc.) then a User can issue a Data Request to get the data ingested into FAIRiCUBE.
 
