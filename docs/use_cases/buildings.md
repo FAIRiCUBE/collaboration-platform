@@ -1,4 +1,4 @@
-# Spatial and temporal assessment of neighbourhood building stock
+# Spatial and temporal assessment of neighbourhood building stock - UC4
 
 The purpose of this use case is to focus on the potential impacts of building stocks on the material use and greenhouse gas emissions over time. This use case is geared towards two of the EGD priority actions (i.e., climate change and circular economy) emphasizing the need to enhance energy and resource efficiency in the building construction sectors, specifically during the renovation activities.
 

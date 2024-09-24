@@ -3,43 +3,48 @@
     <img src="./images/fairicube_logo_200x149.jpg" alt="FAIRiCUBE Logo" style="height:149px; width:200px;"/>
 </p>
 
-# Welcome to F.A.I.R. Information Cubes - FAIRiCUBE
+# Welcome to the FAIRiCUBE Knowledge Base
+**a digital library where you can explore and benefit from the experience, the know-how and the services of the FAIRICUBE project.**
 
-The core mission of FAIRiCUBE is to enable players from beyond classic Earth Observation (EO) domains to provide, access, process and share gridded data and algorithms in a FAIR and TRUSTable manner.
+This knowledge base aims to share know-how on extracting insights from large/complex datasets using Machine Learning (ML) techniques, enabling actors beyond the traditional Earth Observation domain to access, process and share gridded data and algorithms.
 
-The project’s goal is to leverage power of Machine Learning (ML) operating on multi-thematic datacubes for a broader range of governance and research institutions from diverse fields, who are at present cannot easily access and utilize these potent resources.
+Browse through the different sections of the menu on the left to find user guides for the FAIRICUBE services, as well as recommendations, technical and implementation expertise on data analysis and processing, based on experience and understanding of project use cases. Following instructions in the dedicated part of the User Guide, it is also possible for the community of ML and GeoDatacubes implementers to contribute to documentation in this Knowledge Base.
 
-The objective is the creation of a FAIRiCUBE Hub, a crosscutting platform and framework for data ingestion, provision, analyses, processing and dissemination, to unleash the potential of environmental, biodiversity and climate data through dedicated European data spaces.
+Thanks to the interactive FAIRICUBE Query tool, both ML and data processing experts and non-experts can easily discover and analyse the project's data analysis and processing resources (pipelines, pre-processing, ML models and algorithms...). 
 
-FAIRiCUBE use cases address EU green deal action items, focusing on urban and regional scale. The use cases are:
-
-1. [UC1 Urban adaptation to climate change](use_cases/urban_climate.md)
-2. [UC2 Biodiversity and agriculture nexus (regional)](use_cases/biodiversity_agri.md)
-3. [UC3 Environmental Adaptation Genomics in Drosophila (urban, biodiversity)](use_cases/drosophila_genetics.md)
-4. [UC4 Spatial and temporal assessment of neighbourhood building stock (urban, energy, circular economy)](use_cases/buildings.md)
-5. [UC5 Validation of Phytosociological Methods through Occurrence Cubes (urban/regional focus, biodiversity)](use_cases/biodiversity_cubes.md)
+By going through the Tips & Tricks, users will discover the challenges faced by the use cases and the associated solutions, workarounds, failures and lessons learned.
 
 
-## Datacubes
+Sections of this Knowledge Base:
 
-The interpretation of the term datacube in the EO domain usually depends on the respective context. It may refer to a data service such as Sentinel Hub, to some abstract API, or to a concrete set of spatial images that form a time-series.
+- **Overview** 
 
-In the EO domain a datacube is a multi-dimensional array of values; examples include multi-terabyte/petabyte data warehouses and time series of image data. The data cube is used to represent data (sometimes called facts) along some dimensions of interest.
+provides general information about the FAIRiCUBE project, the FAIRiCUBE Hub and the two pillars of the projects’ activities: the GeoDataCubes and the Machine Learning.  Go through this section to learn about the core mission of FAIRiCUBE, what the Hub is with its architecture and platform, and the basics of GeoDataCubes and Machine Learning, which in the project were combined to extract meaningful insights from complex and voluminous Earth Observation data. 
 
-The concept of multidimensional datacubes can help overcome many challenges with respect to performance, scalability, interoperability, semantics, sampling, geo-referencing, and readiness for ML applications.
+- **Use Cases**
 
+introduces to the project’s use cases, all focusing on urban and regional scale. The FAIRiCUBE use cases address EU green deal action items, like climate change, circular economy, energy and biodiversity. Specifically, they investigate the adaptation to climate change, the nexus between biodiversity and agriculture, the environmental adaptation genomics in drosophila, the spatial and temporal assessment of neighbourhood building stock, the validation of Phytosociological Methods through Occurrence Cubes.
 
-## FAIR processing and analysing
+- **[User Guide](user_guide/introduction.md)**
 
-The challenge posed by the potential of multi-thematic datacubes pertains to processing; while established processing paradigms align well with the constrained datasets traditionally available. These must be rethought when confronting both the structure and sheer volume of data available in cube formats.<br>
-Fortuitously, the experience and compute resources to run artificial intelligence (AI) and specifically machine learning (ML) applications have significantly evolved, developing from what was long seen as a buzzword for untransparent data analysis towards viable tools enabling the extraction of real value and insights from large and complex data collections.
+provides access to the FAIRiCUBE Services: the FAIRICUBE Metadata Catalog describing the project’s datasets (used and produced by the use cases) and processing resources (pipelines, pre-processing, ML models and algorithms),  the Query Tool to query over the resources, the EOX Lab, the rasdaman Lab and the FAIRICUBE storage to let the user try the environments and the algorithms. For each service detailed descriptions, examples and instructions for use are available. 
 
-Therefore, when providing data, processing functionality and data products to relevant stakeholders such as governmental authorities, civil society and NGOs, commercial players, or researchers, all these aspects must be considered. Following the **FAIR principles**, while data is becoming increasingly **findable**, **accessible**, and **interoperable**, true **reusability** depends on the availability and functionality of suitable processing mechanisms.<br>
-As ever more decisions are taken based on live, historical, or synthetic data, applying the FAIR principles towards analysis and processing is essential in maintaining trust in the data and analyses underpinning these actions. <br>
-In this project, we aim to advance the FAIRness of both data and data analysis and subsequent products by enhancing the reusability of existing data and applying the FAIR principles to advanced data analytics algorithms and concepts.
+- **[Self-Training](self_training/introduction.md)**
 
+provides insights into the basic concepts of data science as applied/applicable to FAIRiCUBE, together with a list of useful links to external resources, instructions for use and examples. Those new to ML and geodatabases can use the topics in this section to acquire the basic concepts/skills needed to understand and benefit from the work done in the use cases.
 
-## Machine learning and datacubes
+- **[AI Toolkit](ai_toolkit/introduction.md)**
 
-However, the broader potential of machine learning applied to multi-thematic datacubes has rarely been demonstrated. Most ML applications on datacubes focus on a limited number of data sources or often just temporal steps within one dataset.
-FAIRiCUBE aims to deliver the power of datacubes and ML to decision makers and data scientists.
+introduces the most used tools and frameworks in the AI field, with description and examples of use. In the documents of this section one can find link to practical resources and code snippets that demonstrate how to apply AI methods across a range of domains, from machine learning and deep learning to natural language processing and computer vision. 
+
+- **[GeoDatacubes Toolkit](gdc_toolkit/introduction.md)**
+
+introduces the most used tools and frameworks in the GeoDatacubes field, with links to description page and examples of use. In the documents of this section one can find link to tools enabling use of the GeoDatacubes in a wide range of applications that require large-scale geospatial analysis, like the environmental monitoring, climate change research, agriculture, biodiversity and conservation, urban planning, disaster management and much more.
+
+- **[Lessons Learnt and Tips&Tricks](lessons_learnt_tips_tricks/introduction.md)**
+
+documents the use cases challenges, their successes & failures, solutions & workarounds. Reading through the contents of this section will prevent you from wasting time trying to solve problems that have already been faced by use cases and for which they have already found a solution. You will also learn which approaches have been successful, which have failed, and which points are still open.
+
+- **External Resources**
+
+contains useful links to external resources used in FAIRiCUBE, like the Sentinel Hub, the Copernicus Hub  providing comprehensive and accessible access to a wealth of Earth observation data gathered by the Sentinel satellites, the EOxHub / Euro Data Cube providing the [FAIRiCUBE EOX Lab](./user_guide/eox_lab.md), the rasdaman platform the integrated solution for managing and providing access via standardized API to spatio-temporal datacubes.
