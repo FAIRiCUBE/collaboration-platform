@@ -10,11 +10,9 @@ Two types of storage, "File Storage" and "Object Storage", are provided with sli
 
 ## File Storage
 
-Per default a user in a [FAIRiCUBE EOX Lab JupyterLab session](./eox_lab.md) gets access to their personal workspace as well as to a shared folder mounted under `/shared/fairicube/` or `~/.shared/fairicube/`. This shared folder is not directly visible in the JupyterLab interface but can be accessed from notebooks or their content viewed via the commandline (i.e. via Terminal).
+Per default a user in a [FAIRiCUBE EOX Lab JupyterLab session](./eox_lab.md) gets access to their personal workspace, to a team shared directory as well as to a common shared one. The directory shared with the Use Case team is mounted under `~/team_extra/` whereas the common shared one is mounted under `~/.shared/fairicube/`. This common shared folder is not directly visible in the JupyterLab file browser interface as it is a hidden directory (note the `.`in the name) but can be accessed from notebooks or their content viewed via the commandline (i.e. via Terminal).
 
-Though possible, it is not recommended to add this `/shared/fairicube/` permanently (eg. via symbolic linking) to the JupyterLab session, since this could slow down the session's performance considerably. 
-
-The personal workspace as well as the shared folder are both persisted on File Storage and are only available in JupyterLab.
+The personal workspace as well as the shared folders are persisted on File Storage and are only available in JupyterLab.
 
 ## Object Storage
 
@@ -27,7 +25,7 @@ Using the s3 protocol this buckets can be accessed from anywhere (i.e., if permi
 
 The Use Case specific Object Storage bucket is, for convenience, mounted to `~/s3` for each user but preferably used via the `s3` protocol.
 
-The common bucket is accessible to all Use Cases. This is the `fairicube` bucket where access keys are shared for usage. For convenience this bucket is typically mounted for each user to `~/.fairicube-bucket/`. Again, though possible, it is not recommended to add this directory permanently (eg. via symbolic linking) to the JupyterLab session, since this could slow down the session's performance considerably if a high number of files is stored on the bucket.
+The common bucket is accessible to all Use Cases. This is the `fairicube` bucket where access keys are shared for usage. For convenience this bucket is typically mounted for each user to `~/.fairicube-bucket/`. Though possible, it is not recommended to add this directory permanently (eg. via symbolic linking) to the JupyterLab session, since this could slow down the session's performance considerably if a high number of files is stored on the bucket.
 
 ## Sharing
 
