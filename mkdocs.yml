@@ -36,9 +36,9 @@ nav:
   - Self-Training:
     - Introduction: self_training/st_introduction.md
     - Pre-Processing: self_training/pre_processing.md
-    - Machine Learning: self_training/machine_learning.md
+    - Machine Learning: self_training/st_machine_learning.md
     - Deep Learning: self_training/deep_learning.md
-    - GeoDataCubes: self_training/geodatacubes.md
+    - GeoDataCubes: self_training/st_geodatacubes.md
     - xcube: self_training/xcube.md
     - EO-College - Cube & Clouds: self_training/eo_cubes_clouds.md
   - AI TOOLKIT:
