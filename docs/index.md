@@ -25,23 +25,23 @@ provides general information about the FAIRiCUBE project, the FAIRiCUBE Hub and 
 
 introduces to the project’s use cases, all focusing on urban and regional scale. The FAIRiCUBE use cases address EU green deal action items, like climate change, circular economy, energy and biodiversity. Specifically, they investigate the adaptation to climate change, the nexus between biodiversity and agriculture, the environmental adaptation genomics in drosophila, the spatial and temporal assessment of neighbourhood building stock, the validation of Phytosociological Methods through Occurrence Cubes.
 
-- **[User Guide](user_guide/introduction.md)**
+- **[User Guide](user_guide/ug_introduction.md)**
 
 provides access to the FAIRiCUBE Services: the FAIRICUBE Metadata Catalog describing the project’s datasets (used and produced by the use cases) and processing resources (pipelines, pre-processing, ML models and algorithms),  the Query Tool to query over the resources, the EOX Lab, the rasdaman Lab and the FAIRICUBE storage to let the user try the environments and the algorithms. For each service detailed descriptions, examples and instructions for use are available. 
 
-- **[Self-Training](self_training/introduction.md)**
+- **[Self-Training](self_training/st_introduction.md)**
 
 provides insights into the basic concepts of data science as applied/applicable to FAIRiCUBE, together with a list of useful links to external resources, instructions for use and examples. Those new to ML and geodatabases can use the topics in this section to acquire the basic concepts/skills needed to understand and benefit from the work done in the use cases.
 
-- **[AI Toolkit](ai_toolkit/introduction.md)**
+- **[AI Toolkit](ai_toolkit/ai_introduction.md)**
 
 introduces the most used tools and frameworks in the AI field, with description and examples of use. In the documents of this section one can find link to practical resources and code snippets that demonstrate how to apply AI methods across a range of domains, from machine learning and deep learning to natural language processing and computer vision. 
 
-- **[GeoDatacubes Toolkit](gdc_toolkit/introduction.md)**
+- **[GeoDatacubes Toolkit](gdc_toolkit/gdc_introduction.md)**
 
 introduces the most used tools and frameworks in the GeoDatacubes field, with links to description page and examples of use. In the documents of this section one can find link to tools enabling use of the GeoDatacubes in a wide range of applications that require large-scale geospatial analysis, like the environmental monitoring, climate change research, agriculture, biodiversity and conservation, urban planning, disaster management and much more.
 
-- **[Lessons Learnt and Tips&Tricks](lessons_learnt_tips_tricks/introduction.md)**
+- **[Lessons Learnt and Tips&Tricks](lessons_learnt_tips_tricks/ll_introduction.md)**
 
 documents the use cases challenges, their successes & failures, solutions & workarounds. Reading through the contents of this section will prevent you from wasting time trying to solve problems that have already been faced by use cases and for which they have already found a solution. You will also learn which approaches have been successful, which have failed, and which points are still open.
 
