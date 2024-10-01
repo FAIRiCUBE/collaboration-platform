@@ -20,7 +20,7 @@ nav:
     - Spatial and temporal assessment of neighbourhood building stock - UC4: use_cases/buildings.md
     - Biodiversity occurrence cubes - UC5: use_cases/biodiversity_cubes.md
   - User guide:
-    - Introduction: user_guide/introduction.md
+    - Introduction: user_guide/ug_introduction.md
     - FAIRiCUBE Catalog: user_guide/fic_catalog.md
     - FAIRiCUBE Query Tool: user_guide/query_tool.md
     - User and access management: user_guide/user_access_management.md
@@ -34,7 +34,7 @@ nav:
     - How to reuse the FAIRiCUBE approach: user_guide/fic_approach.md
     - Further information: user_guide/further-information.md
   - Self-Training:
-    - Introduction: self_training/introduction.md
+    - Introduction: self_training/st_introduction.md
     - Pre-Processing: self_training/pre_processing.md
     - Machine Learning: self_training/machine_learning.md
     - Deep Learning: self_training/deep_learning.md
@@ -42,7 +42,7 @@ nav:
     - xcube: self_training/xcube.md
     - EO-College - Cube & Clouds: self_training/eo_cubes_clouds.md
   - AI TOOLKIT:
-    - Introduction: ai_toolkit/introduction.md
+    - Introduction: ai_toolkit/ai_introduction.md
     - Getting started with AI-toolkit: ai_toolkit/ai_toolkit_getting_started.md
     - AI-toolkit examples: ai_toolkit/ai_toolkit_examples.md
     - Introduction to scikit-learn: ai_toolkit/scikit_introduction.md
@@ -57,12 +57,12 @@ nav:
     - Introduction to MLflow: ai_toolkit/mlflow_introduction.md
     - Introduction to TensorBoard: ai_toolkit/tb_introduction.md
   - GEODATACUBES TOOLKIT: 
-    - Introduction: gdc_toolkit/introduction.md
+    - Introduction: gdc_toolkit/gdc_introduction.md
     - GDAL: gdc_toolkit/gdal.md
     - Rasterio: gdc_toolkit/rasterio.md
     - Xarray: gdc_toolkit/xarray.md
   - LESSONS LEARNT AND TIPS&TRICKS:
-    - Introduction: lessons_learnt_tips_tricks/introduction.md
+    - Introduction: lessons_learnt_tips_tricks/ll_introduction.md
     - How to speed-up NetCDF data loading and processing time on cloud environments: lessons_learnt_tips_tricks/climate_data_processing_with_dask_extremly_slow.md
     - How to transform a GeoTiff file into a Cloud-Optimised-Geotiff: lessons_learnt_tips_tricks/from_tiff_to_cog.md
     - How to check if a PyTorch installation is present and working: lessons_learnt_tips_tricks/pytorch_verification.md
