@@ -4,7 +4,7 @@ FAIRiCUBE lessons learnt consist of use cases challenges and related successes, 
 
 ## UCs lessons learnt dedicated template
 
-Below is a template for collecting information about lessons learnt.
+Below is a template for collecting information about lessons learnt. [Click here to use the template and upload a new lesson learnt]('https://github.com/FAIRiCUBE/lessons-learnt/issues/new?assignees=&labels=&projects=&template=template.yml).
 
 | Section | Description | 
 | ------- | ----------- |
