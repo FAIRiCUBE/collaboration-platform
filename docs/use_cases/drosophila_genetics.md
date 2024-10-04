@@ -6,4 +6,4 @@ In our “Drosophila genomics” use case, we take advantage of comprehensive ea
 
 This approach will allow to identify genes that are putatively under selection and involved in adaptation to environmental change. Using machine learning approaches, we further aim to identify combinations of environmental factors that may influence the genetic diversity in natural populations which will help us to better understand the impact of climate change on the accelerating biodiversity crisis.
 
-Partner: Naturhistorisches Museum Wien, Natural History Museum Vienna (NHMW)
+Partners: Naturhistorisches Museum Wien, Natural History Museum Vienna (NHMW)
