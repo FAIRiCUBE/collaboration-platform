@@ -7,7 +7,7 @@ theme: readthedocs  # alternative: mkdocs readthedocs
 
 nav:
   - OVERVIEW:
-    - FAIRiCUBE Knowledge Base: index.md
+    - FAIRiCUBE Digital Library: index.md
     - About FAIRiCUBE project: overview/about_fic.md
     - FAIRiCUBE Hub: overview/fic_hub.md
     - FAIRiCUBE Hub platform: overview/fic_platform.md
