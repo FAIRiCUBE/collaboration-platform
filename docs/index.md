@@ -3,10 +3,10 @@
     <img src="./images/fairicube_logo_200x149.jpg" alt="FAIRiCUBE Logo" style="height:149px; width:200px;"/>
 </p>
 
-# Welcome to the FAIRiCUBE Knowledge Base
-**a digital library where you can explore and benefit from the experience, the know-how and the services of the FAIRICUBE project.**
+# Welcome to the FAIRiCUBE Knowledge Base Digital Library
+**Explore and benefit from the experience, the know-how and the services of the FAIRICUBE project.**
 
-This knowledge base aims to share know-how on extracting insights from large/complex datasets using Machine Learning (ML) techniques, enabling actors beyond the traditional Earth Observation domain to access, process and share gridded data and algorithms.
+This digital library aims to share know-how on extracting insights from large/complex datasets using Machine Learning (ML) techniques, enabling actors beyond the traditional Earth Observation domain to access, process and share gridded data and algorithms.
 
 Browse through the different sections of the menu on the left to find user guides for the FAIRICUBE services, as well as recommendations, technical and implementation expertise on data analysis and processing, based on experience and understanding of project use cases. Following instructions in the dedicated part of the User Guide, it is also possible for the community of ML and GeoDatacubes implementers to contribute to documentation in this Knowledge Base.
 
