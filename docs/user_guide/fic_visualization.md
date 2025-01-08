@@ -4,6 +4,7 @@ FAIRiCUBEvis can be used to present input data and results publicly. In combinat
 To view the map, just visit [vis.fairicube.eu](https://vis.fairicube.eu/). If you want to add your data to the map, follow the guide [](how_to_share).
 
 Features:
+
 * Display COGs from cloud storage (no server in between)
 * Integrated with the STAC Catalog!
 * Optional: define custom color palettes
@@ -21,6 +22,7 @@ Note: this guide is developed for FAIRiCUBE, which uses AWS S3 Buckets for Objec
 ![the steps to follow to prepare GeoTiff files for visualization with FAIRiCUBEviz](../images/fic_visualization_how_to_share_data_diagram.png)
 
 There are three steps:
+
 * enable public access to a folder within your S3 Bucket
 * convert your GeoTiff in COG format
 * create a STAC Record for your dataset with a link to the COG file
@@ -34,6 +36,7 @@ For more information on enabling public access in AWS S3 buckets, visit [this gu
 ### Create the COG overview
 
 For optimal performance we recommend the COG file to follow these specifics:
+
 * Coordinate Reference System: EPSG:3857
 * Tiling scheme GoogleMapsCompatible
 * NoData value either 0 or -1. 
@@ -56,6 +59,7 @@ Once merged, the STAC Record will show a link to the web map.
 
 ### Custom color maps
 FAIRiCUBEvis has three built-in color maps to choose from. If your dataset requires a different color map, there are two ways to define a custom color map:
+
 * using [D3 color scales](https://d3js.org/d3-scale-chromatic)
 * using a gdal-like color map
 
@@ -68,6 +72,7 @@ d3.somecolorscale
 ```
 where `somecolorscale` is one of `d3js.org` color scales. For example `interpolateBlues`.
 Available color scales:
+
 * Categorical schemes: https://d3js.org/d3-scale-chromatic/categorical
 * Cyclical schemes: https://d3js.org/d3-scale-chromatic/cyclical
 * Diverging schemes: https://d3js.org/d3-scale-chromatic/diverging
