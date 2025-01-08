@@ -38,7 +38,7 @@ In the table below find the links to the FAIRiCUBE services currently developed 
 | Service name | Link to service | Description |
 | ------------ | --------------- | ----------- |
 | FAIRiCUBE Knowledge Base Digital Library | [https://fairicube.readthedocs.io](https://fairicube.readthedocs.io) | Landing page for project documentation |
-| FAIRiCUBE-Hub | [https://hub.fairicube.eu/](https://hub.fairicube.eu/) | FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes |
+| FAIRiCUBE Hub | [https://hub.fairicube.eu/](https://hub.fairicube.eu/) | FAIRiCUBE Hub is a unifying platform for discovering and utilizing F.A.I.R. (Findable, Accessible, Interoperable, Reusable) datacubes |
 | FAIRiCUBE Catalog | [https://catalog.eoxhub.fairicube.eu/](https://catalog.eoxhub.fairicube.eu/) | Catalog of data and analysis/processing (a/p) resources |
 | FAIRiCUBE Lab Rasdaman | [https://fairicube.rasdaman.com/](https://fairicube.rasdaman.com/) | Workspace to access and process data |
 | FAIRiCUBE Lab EOX | [https://eoxhub.fairicube.eu/](https://eoxhub.fairicube.eu/) | Workspace to access and process data |
