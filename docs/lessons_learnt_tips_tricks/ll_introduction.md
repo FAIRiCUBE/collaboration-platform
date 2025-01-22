@@ -22,4 +22,5 @@ Below is a template for collecting information about lessons learnt. [Click here
 - [How to check if a PyTorch installation is present and working](pytorch_verification.md)
 - [How to generate a GeoTIFF file from a NumPy array](geotiff_generation.md)
 - [How to create binary layers from data layer in QGIS](binary_layers_from_data_layers.md)
+- [How to download genomic data from Drosophila via Jupyter Notebook](Drosophila_data_via_Jupyter_Notebook.md)
 
