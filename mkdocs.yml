@@ -69,6 +69,7 @@ nav:
     - How to check if a PyTorch installation is present and working: lessons_learnt_tips_tricks/pytorch_verification.md
     - How to generate a GeoTIFF file from a NumPy array: lessons_learnt_tips_tricks/geotiff_generation.md
     - How to create binary layers from data layer in QGIS: lessons_learnt_tips_tricks/binary_layers_from_data_layers.md
+    - How to download genomic data from Drosophila via Jupyter Notebook: lessons_learnt_tips_tricks/Drosophila_data_via_Jupyter_Notebook.md
   - EXTERNAL RESOURCES:
     - EOxHub / EuroDataCube: external_resource/edc_access.md
     - FAIRiCUBE Rasdaman Datacubes: external_resource/rasdaman_platform.md
