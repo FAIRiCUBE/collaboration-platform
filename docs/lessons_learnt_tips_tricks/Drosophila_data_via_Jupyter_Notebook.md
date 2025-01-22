@@ -20,7 +20,7 @@ FAIRiCUBE Lab (Storage, CPU, RAM and Network)
 
 Direct download via wget in a Jupyter Notebook. 
 
-https://github.com/FAIRiCUBE/uc3-drosophola-genetics/blob/main/projects/Notebooks/HUB/GetGenomicData.ipynb
+[https://github.com/FAIRiCUBE/uc3-drosophola-genetics/blob/main/projects/Notebooks/HUB/GetGenomicData.ipynb](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/blob/main/projects/Notebooks/HUB/GetGenomicData.ipynb)
 
 ## Expected benefits
 
