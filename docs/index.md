@@ -27,7 +27,7 @@ introduces to the project’s use cases, all focusing on urban and regional scal
 
 - **[User Guide](user_guide/ug_introduction.md)**
 
-provides access to the FAIRiCUBE Services: the FAIRICUBE Metadata Catalog describing the project’s datasets (used and produced by the use cases) and processing resources (pipelines, pre-processing, ML models and algorithms),  the Query Tool to query over the resources, the EOX Lab, the rasdaman Lab and the FAIRICUBE storage to let the user try the environments and the algorithms. For each service detailed descriptions, examples and instructions for use are available. 
+provides access to the FAIRiCUBE Services: the FAIRICUBE Metadata Catalog describing the project’s datasets (used and produced by the use cases) and processing resources (pipelines, pre-processing, ML models and algorithms),  the Query Tool to query over the resources, the EOX Lab, the rasdaman DataCubes Platform and Lab and the FAIRICUBE storage to let the user try the environments and the algorithms. For each service detailed descriptions, examples and instructions for use are available. 
 
 - **[Self-Training](self_training/st_introduction.md)**
 
@@ -47,4 +47,4 @@ documents the use cases challenges, their successes & failures, solutions & work
 
 - **External Resources**
 
-contains useful links to external resources used in FAIRiCUBE, like the Sentinel Hub, the Copernicus Hub  providing comprehensive and accessible access to a wealth of Earth observation data gathered by the Sentinel satellites, the EOxHub / Euro Data Cube providing the [FAIRiCUBE EOX Lab](./user_guide/eox_lab.md), the rasdaman platform the integrated solution for managing and providing access via standardized API to spatio-temporal datacubes.
+contains useful links to external resources used in FAIRiCUBE, like the Sentinel Hub, the Copernicus Hub  providing comprehensive and accessible access to a wealth of Earth observation data gathered by the Sentinel satellites, and the EOxHub / Euro Data Cube providing the [FAIRiCUBE EOX Lab](./user_guide/eox_lab.md),

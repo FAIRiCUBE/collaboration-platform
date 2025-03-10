@@ -28,6 +28,7 @@ nav:
     - Adding Analysis and Processing resources to FAIRiCUBE: user_guide/adding_ap.md
     - FAIRiCUBE EOX Lab: user_guide/eox_lab.md
     - FAIRiCUBE Storage: user_guide/storage.md
+    - FAIRiCUBE Rasdaman Datacubes: user_guide/rasdaman_platform.md
     - FAIRiCUBE Rasdaman Lab: user_guide/rasdaman_lab.md
     - FAIRiCUBE Labs examples: user_guide/lab_examples.md
     - FAIRiCUBE Web Map: user_guide/fic_visualization.md
@@ -72,7 +73,6 @@ nav:
     - How to download genomic data from Drosophila via Jupyter Notebook: lessons_learnt_tips_tricks/Drosophila_data_via_Jupyter_Notebook.md
   - EXTERNAL RESOURCES:
     - EOxHub / EuroDataCube: external_resource/edc_access.md
-    - FAIRiCUBE Rasdaman Datacubes: external_resource/rasdaman_platform.md
     - Copernicus Hub: external_resource/copernicus_hub.md 
     - Sentinel-Hub: external_resource/sentinelhub_access.md
 

@@ -115,6 +115,13 @@ For more details on the features and interface check the
 |:--:| 
 | *rasdaman ows client.* |
 
+## Python WCS and WCPS Clients
+
+The following two Python libraries make it easy to access and query datacubes in rasdaman for Python developers:
+
+- WCS python library ([GitHub repo](https://github.com/rasdaman/wcs-python-client), [documentation](https://rasdaman.github.io/wcs-python-client/)) allows to extract information about datacubes: available datacubes, their bounding box/axes, range type, metadata, etc.
+- WCPS python library ([GitHub repo](https://github.com/rasdaman/wcps-python-client), [documentation](https://rasdaman.github.io/wcps-python-client/)) allows to dynamically build WCPS queries and execute on a WCPS server.
+
 ## Further Clients
 
 As datacube access is provided via standardized API, there's many
