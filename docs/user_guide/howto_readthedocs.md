@@ -75,6 +75,7 @@ Once the repository owner accepts your merge request, the content will be merged
 
 _**Note:**_ *After  a successful merge the repository owner will delete your submitted branch! <br> You should do the same in your local instance by issuing:*
 
+    $> git checkout main
     $> git branch -d <your_branch_name>
 
 
