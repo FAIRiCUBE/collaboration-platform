@@ -7,12 +7,11 @@ In our “Drosophila genomics” use case, we take advantage of comprehensive ea
 This approach will allow to identify genes that are putatively under selection and involved in adaptation to environmental change. Using machine learning approaches, we further aim to identify combinations of environmental factors that may influence the genetic diversity in natural populations which will help us to better understand the impact of climate change on the accelerating biodiversity crisis.
 
 
-
 ## Research Questions
 
-1) How....?
-2) In which...?
-3) ....?
+1. How does environmental variation across space and time correlate with patterns of genetic diversity in Drosophila melanogaster populations?
+2. Which genomic regions or genes in Drosophila melanogaster show signatures of adaptation to specific environmental conditions?
+3. Can combinations of environmental factors predict changes in genetic structure or the presence of adaptive alleles in natural populations?
 
 ## Workflow
 
@@ -25,6 +24,7 @@ This approach will allow to identify genes that are putatively under selection a
 ## Data Ingestion 
 
 Use Case 3 mostly uses APIs available via the FAIRiCUBE infrastructure. One data source, that was ingested in the Rasdaman architecture was the [Glocbal Pesticide Grid](https://www.earthdata.nasa.gov/news/new-agricultural-pesticide-use-dataset-nasas-sedac).
+
 ## Processing Steps
 
 ## Solutions
