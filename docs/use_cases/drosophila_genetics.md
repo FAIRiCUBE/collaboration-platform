@@ -15,6 +15,7 @@ This approach will allow to identify genes that are putatively under selection a
 
 # Workflow
 
+The complete workflow including code and instructions can be found in the GitHub Repository of [UseCase3](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/LandscapeGenomicsPipeline).
 - Genomic Data: We work with genomic data from Drosophila melanogaster at population level, available at [DEST.bio](https://dest.bio/). This genomic data is availbale at a common data format called "Variant Cal Format" or short VCF. From these VCF files, we generate so-called Allele Frequencies for each population.
 
 - Environmental Data: Environmental data is available from various sources, matching our regions and times of interest. We used FAIRiCUBE infrastructure to access earth observation and environemntal data to match our sample coordinates. We also developed a tool called "QueryCube" to access and download data for point coordinates. [Access here]()
