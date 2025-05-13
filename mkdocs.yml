@@ -14,11 +14,11 @@ nav:
     - GeoDataCubes: overview/geodatacubes.md
     - Machine Learning: overview/machine_learning.md
   - FAIRiCUBE USECASES:
-    - Urban adaptation to climate change - UC1: use_cases/urban_climate.md
-    - Biodiversity and agriculture nexus - UC2: use_cases/biodiversity_agri.md
-    - Drosophila Genetics - UC3: use_cases/drosophila_genetics.md
-    - Spatial and temporal assessment of neighbourhood building stock - UC4: use_cases/buildings.md
-    - Biodiversity occurrence cubes - UC5: use_cases/biodiversity_cubes.md
+    - UC1 - Urban climate change: use_cases/uc1_urban_climate.md
+    - UC2 - Biodiversity and agriculture: use_cases/uc2_biodiversity_agri.md
+    - UC3 - Drosophila Genetics: use_cases/uc3_drosophila_genetics.md
+    - UC4 - Neighbourhood building stock: use_cases/uc4_buildings.md
+    - UC5 - Biodiversity occurrence cubes: use_cases/uc5_biodiversity_cubes.md
   - User guide:
     - Introduction: user_guide/ug_introduction.md
     - FAIRiCUBE Catalog: user_guide/fic_catalog.md
