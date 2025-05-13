@@ -20,7 +20,7 @@ dd
 
 dd
 
-## Solution(s) 
+## Solution
 
 dd
 
@@ -28,4 +28,6 @@ dd
 
 table information including links to data, github, paper, further documentations
 
-## Partners: Wageningen Environmental Research
+## Partners
+
+Wageningen Environmental Research
