@@ -9,4 +9,24 @@ Research question:
 * How efficiently and effectively can datacube infrastructure be scaled up to cover building stock at regional or national level?
 * Can datacube infrastructure knowledge be easily transferred and reproduced for other types of infrastructure (i.e., green, blue, and grey infrastructure)?
 
-Partners: Stiftelsen Norsk Institutt for Luftforskning, Norwegian Institute for Air Research
+## Workflow 
+dd
+
+### Data and ingestion
+
+dd
+
+## Processing steps and ML applications
+
+dd
+
+## Solution(s) 
+
+dd
+
+
+## Resources 
+table information including links to data, github, paper, further documentations
+
+## Partners
+Stiftelsen Norsk Institutt for Luftforskning, Norwegian Institute for Air Research
