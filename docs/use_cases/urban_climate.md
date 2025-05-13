@@ -17,7 +17,7 @@ At the **European level**, they help identify cities with similar characteristic
 
 ![Processing workflow - EU application](../images/uc1_workflow_eu.png)
 
-### Data and ingestion
+## Data and ingestion
 
 | Dataset name | Description | Link to Metadata
 |---|---|---|
