@@ -1,4 +1,4 @@
- # Drosophila Genetics - UC3
+# UC3 - Drosophila Genetics
 
 Combining earth observation and genomics data to study the evolutionary history of the fruit fly Drosophila melanogaster.
 
@@ -6,16 +6,13 @@ In our “Drosophila genomics” use case, we take advantage of comprehensive ea
 
 This approach will allow to identify genes that are putatively under selection and involved in adaptation to environmental change. Using machine learning approaches, we further aim to identify combinations of environmental factors that may influence the genetic diversity in natural populations which will help us to better understand the impact of climate change on the accelerating biodiversity crisis.
 
-
 ## Research Questions
 
 1. How does environmental variation across space and time correlate with patterns of genetic diversity in Drosophila melanogaster populations?
 2. Which genomic regions or genes in Drosophila melanogaster show signatures of adaptation to specific environmental conditions?
 3. Can combinations of environmental factors predict changes in genetic structure or the presence of adaptive alleles in natural populations?
 
-# Workflow
-
-#### Short Summary of Workflow
+## Workflow
 
 We work with genomic data from Drosophila melanogaster at population level, available at [DEST.bio](https://dest.bio/). This genomic data is availbale at a common data format called "Variant Cal Format" or short VCF. From these VCF files, we generate so-called Allele Frequencies for each population.
 Environmental data is available from various sources, matching our regions and times of interest. We used FAIRiCUBE infrastructure to access earth observation and environemntal data to match our sample coordinates. We also developed a tool called [QueryCube](https://querycube.nilu.no/) to access and download data for point coordinates.
@@ -23,11 +20,11 @@ We combine both data types (genomic and environemtnal) by doing association anal
 
 The complete workflow including code and instructions can be found in the GitHub Repository of [UseCase3](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/LandscapeGenomicsPipeline).
 
-## 1) Data Ingestion 
+## Data and ingestion 
 
 Use Case 3 mostly uses APIs available via the FAIRiCUBE infrastructure. One data source, that was ingested in the Rasdaman architecture was the [Glocbal Pesticide Grid](https://www.earthdata.nasa.gov/news/new-agricultural-pesticide-use-dataset-nasas-sedac).
 
-## 2) Environmental And Genomic Data Filtering
+### Environmental And Genomic Data Filtering
 
 To ensure high-quality and interpretable analyses, the environmental dataset underwent a thorough filtering process. The following criteria were used to clean and retain only informative and reliable data points:
 
@@ -46,7 +43,7 @@ Any data points with missing values for one or more environmental variables were
 
 Environmental variables showing no variation (i.e., constant across all samples) were discarded. Such variables do not contribute to explaining genetic variation and can interfere with statistical modeling.
 
-## 3) Processing Steps
+## Processing steps and ML applications
 
 ### Converting VCF File to Allele Frequency File
 Raw variant data in VCF (Variant Call Format) is processed to extract allele frequency information per population or individual. This step transforms the VCF into a tabular format suitable for downstream statistical analysis.
@@ -54,7 +51,7 @@ Raw variant data in VCF (Variant Call Format) is processed to extract allele fre
 ### Annotating SNPs
 Single Nucleotide Polymorphisms (SNPs) are annotated using reference databases to determine their genomic context (e.g., intergenic, intronic, exonic) and potential functional impacts. This aids interpretation and prioritization of variants.
 
-### Performing Linear Regression
+#### Performing Linear Regression
 Linear regression is used to test for associations between allele frequencies (or genotypes) and continuous environmental or phenotypic variables. This identifies candidate loci under selection or related to traits of interest.
 
 ### Performing LFMM (Latent Factor Mixed Models)
@@ -63,10 +60,12 @@ LFMM accounts for unobserved confounding factors such as population structure by
 ### Performing RDA (Redundancy Analysis)
 RDA is a multivariate statistical method that examines how much of the genetic variation can be explained by environmental predictors. It is particularly useful for identifying patterns of local adaptation and visualizing genotype-environment relationships.
 
+## Solution(s) 
+
+dd
 
 
-
-## 4) Resources
+## Resources
 
 ### Environmental Data
 
@@ -87,6 +86,7 @@ We used FAIRiCUBE infrastructure to access earth observation and environmental d
    - https://www.r-project.org/
 - VCFTools
   - http://vcftools.github.io/license.html
+
 ## Partners
 
 Naturhistorisches Museum Wien, Natural History Museum Vienna (NHMW)
