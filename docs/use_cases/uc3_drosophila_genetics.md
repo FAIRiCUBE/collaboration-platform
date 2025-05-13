@@ -28,18 +28,18 @@ Use Case 3 mostly uses APIs available via the FAIRiCUBE infrastructure. One data
 
 To ensure high-quality and interpretable analyses, the environmental dataset underwent a thorough filtering process. The following criteria were used to clean and retain only informative and reliable data points:
 
-#### Removal of Records with Missing Coordinates
+### Removal of Records with Missing Coordinates
 Sample entries lacking geographic coordinates (latitude and/or longitude) were excluded, as spatial location is essential for linking environmental variables with genetic data. These records cannot be reliably used in spatial or genotype-environment association analyses.
 
-#### Removal of Records with Missing Time Information
+### Removal of Records with Missing Time Information
 
 Observations without a valid timestamp (e.g., year, season, or date) were filtered out. Temporal information is critical for aligning genetic sampling with environmental conditions and for detecting temporal trends.
 
-#### Filtering Out Missing Environmental Values
+### Filtering Out Missing Environmental Values
 
 Any data points with missing values for one or more environmental variables were removed. Incomplete records can bias statistical models and reduce interpretability, so only complete cases were retained for analysis.
 
-#### Exclusion of Monomorphic Environmental Variables
+### Exclusion of Monomorphic Environmental Variables
 
 Environmental variables showing no variation (i.e., constant across all samples) were discarded. Such variables do not contribute to explaining genetic variation and can interfere with statistical modeling.
 
@@ -51,7 +51,7 @@ Raw variant data in VCF (Variant Call Format) is processed to extract allele fre
 ### Annotating SNPs
 Single Nucleotide Polymorphisms (SNPs) are annotated using reference databases to determine their genomic context (e.g., intergenic, intronic, exonic) and potential functional impacts. This aids interpretation and prioritization of variants.
 
-#### Performing Linear Regression
+### Performing Linear Regression
 Linear regression is used to test for associations between allele frequencies (or genotypes) and continuous environmental or phenotypic variables. This identifies candidate loci under selection or related to traits of interest.
 
 ### Performing LFMM (Latent Factor Mixed Models)
