@@ -13,7 +13,7 @@ This use case covers the priority “climate change” with a specific focus on 
 ## Workflow 
 dd
 
-### Data and ingestion
+## Data and ingestion
 
 dd
 
