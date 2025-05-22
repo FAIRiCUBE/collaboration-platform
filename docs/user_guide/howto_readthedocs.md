@@ -53,6 +53,8 @@ Now you can start creating your content or edit already existing information.
 
 Once you finished all your edits or newly created documents and have thoroughly checked them in your local instance, you may submit your input to the git repository to be merged into the main branch.
 
+PS: If you need to edit the menu-structure (on the left side) the respective file is 'mkdoc.yml' located 1 level below the docs directory. Please pay special attention to the syntax (eg. spaces) applied.
+
 First you need to commit the changes to your local git branch. Please always provide a meaningful commit-message with your commits.
 
     $> git commit -m "this is an explanation how to commit changes"  <doument_1> <document_2> ....
