@@ -24,3 +24,4 @@ Below is a template for collecting information about lessons learnt. [Click here
 - [How to create binary layers from data layer in QGIS](binary_layers_from_data_layers.md)
 - [How to download genomic data from Drosophila via Jupyter Notebook](Drosophila_data_via_Jupyter_Notebook.md)
 - [How to access and download Copernicus point data with the CDS API](How_to_Copernicus_point_data_with_CDS_API.md)
+- [Challenges in modeling building-level energy demand](challenges_modeling_building-level_ energy_demand.md)
