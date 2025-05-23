@@ -72,6 +72,7 @@ nav:
     - How to create binary layers from data layer in QGIS: lessons_learnt_tips_tricks/binary_layers_from_data_layers.md
     - How to download genomic data from Drosophila via Jupyter Notebook: lessons_learnt_tips_tricks/Drosophila_data_via_Jupyter_Notebook.md
     - How to access and download Copernicus point data with the CDS API: lessons_learnt_tips_tricks/How_to_Copernicus_point_data_with_CDS_API.md
+    - Challenges in modeling building-level energy demand: lessons_learnt_tips_tricks/challenges_modeling_building-level_energy_demand.md
   - EXTERNAL RESOURCES:
     - EOxHub / EuroDataCube: external_resource/edc_access.md
     - Copernicus Hub: external_resource/copernicus_hub.md 
