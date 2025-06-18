@@ -1,26 +1,26 @@
 # UC3 - Drosophila Genetics
 
-Combining earth observation and genomics data to study the evolutionary history of the fruit fly Drosophila melanogaster.
+Combining earth observation and genomics data to study the evolutionary history of the fruit fly <em>Drosophila melanogaster</em>.
 
-In our “Drosophila genomics” use case, we take advantage of comprehensive earth observation data for climate and land use available in the public domain. We will combine environmental data with genomic information of fruit fly DNA samples from more than 300 European Drosophila melanogaster populations that were densely sampled through time and space by [DrosEU](https://droseu.net), our partner consortium. We are developing tools that facilitate extracting information for sample coordinates from gridded datasets to identify links between genetic variation along the whole Drosophila melanogaster genome and environmental variation.
+In our “Drosophila genomics” use case, we take advantage of comprehensive earth observation data for climate and land use available in the public domain. We will combine environmental data with genomic information of fruit fly DNA samples from more than 300 European Drosophila melanogaster populations that were densely sampled through time and space by [DrosEU](https://droseu.net), our partner consortium. We are developing tools that facilitate extracting information for sample coordinates from gridded datasets to identify links between genetic variation along the whole <em>Drosophila melanogaster</em> genome and environmental variation.
 
 This approach will allow to identify genes that are putatively under selection and involved in adaptation to environmental change. Using machine learning approaches, we further aim to identify combinations of environmental factors that may influence the genetic diversity in natural populations which will help us to better understand the impact of climate change on the accelerating biodiversity crisis.
 
 ## Research Questions
 
-1. How does environmental variation across space and time correlate with patterns of genetic diversity in Drosophila melanogaster populations?
+1. How does environmental variation across space and time correlate with patterns of genetic diversity in <em>Drosophila melanogaster</em> populations?
 2. Which genomic regions or genes in Drosophila melanogaster show signatures of adaptation to specific environmental conditions?
 3. Can combinations of environmental factors predict changes in genetic structure or the presence of adaptive alleles in natural populations?
 4. Is it possible to also investigate those research questions in an urban context?
 
 ## Workflow
 
-We work with genomic data from Drosophila melanogaster at population level, available at [DEST.bio](https://dest.bio/). This genomic data is availbale at a common data format called "Variant Cal Format" or short VCF. From these VCF files, we generate so-called Allele Frequencies for each population.
+We work with genomic data from <em>Drosophila melanogaster</em> at population level, available at [DEST.bio](https://dest.bio/). This genomic data is availbale at a common data format called "Variant Call Format" or short VCF. From these VCF files, we generate so-called Allele Frequencies for each population.
 Environmental data is available from various sources, matching our regions and times of interest. We used FAIRiCUBE infrastructure to access earth observation and environemntal data to match our sample coordinates. We also developed a tool called [QueryCube](https://querycube.nilu.no/) to access and download data for point coordinates.
 We combine both data types (genomic and environmental) by doing association analysis. We apply selected statistical methods to uncover the relationship between genomics and environments. 
 
 One major aspect of our work was answering question 4. We therefore established a Citizen Science project called [Vienna City Fly](https://nhmvienna.github.io/ViennaCityFly/) and collected over 19'000 new specimen of Drosophilid flies which were analysed with the same methods as the european scale data. 
-The workflow to conduct research on urban Drosophila is also part of the FAIRiCUBE GitHub repository, called [uc3-vienna-city-fly.](https://github.com/FAIRiCUBE/uc3-vienna-city-fly)
+The workflow to conduct research on urban <em>Drosophila</em> is also part of the FAIRiCUBE GitHub repository, called [uc3-vienna-city-fly.](https://github.com/FAIRiCUBE/uc3-vienna-city-fly)
 
 The complete workflow including code and instructions can be found in the GitHub Repository of [UseCase3](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/LandscapeGenomicsPipeline).
 
@@ -58,7 +58,7 @@ Single Nucleotide Polymorphisms (SNPs) are annotated using reference databases t
 
 ### ML-Application: Imuptation of Missing Genomic Data
 
-In genomic data, missing values frequently arise due to various technical or experimental limitations, and they are often unavoidable. To ensure accurate analysis, one common approach is to remove data entries with missing values entirely. However, this method can significantly reduce the dataset size, leading to a loss of valuable statistical power and critical information. As a result, the imputation—or estimation—of missing data becomes a crucial step in preserving the integrity of the dataset. To address this challenge, project partners at NILU have developed a machine learning algorithm specifically designed to accurately estimate and fill in these missing values, thereby enabling more comprehensive and reliable genomic analyses. 
+In genomic data, missing values frequently arise due to various technical or experimental limitations, and they are often unavoidable. To ensure accurate analysis, one common approach is to remove data entries with missing values entirely. However, this method can significantly reduce the dataset size, leading to a loss of valuable statistical power and critical information. As a result, the imputation—or estimation—of missing data becomes a crucial step in preserving the integrity of the dataset. To address this challenge, project partners at NILU have developed a machine learning algorithm specifically designed to accurately estimate and fill in these missing values, thereby enabling more comprehensive and reliable genomic analyses. <br>
 [GitHub GapFilling](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/gap_filling)
 
 
@@ -78,20 +78,19 @@ Offering  access to just the point coordinates from large spatial datasets can s
 
 ### Environmental Data
 
-We used FAIRiCUBE infrastructure to access earth observation and environmental data from the following sources:
-- [Rasdaman](https://fairicube.rasdaman.com/rasdaman/ows#/services)
-- [City of Vienna](https://www.data.gv.at/)
+We used FAIRiCUBE infrastructure to access earth observation and environmental data from the following sources: <br>
+- [Rasdaman Web Service Cataloge](https://fairicube.rasdaman.com/rasdaman/ows#/services)<br>
+- [Austrian Open Data: Public Data Vienna](https://www.data.gv.at/)
 
 ### Genomic Data
 
-- [DEST Data](https://dest.bio/)
-- [Vienna City Fly Collection](https://nhmvienna.github.io/ViennaCityFly/)
+- [DEST-bio (Drosophila Evolution over Space and Time) Data](https://dest.bio/)
+- [Vienna City Fly Project and Collection](https://nhmvienna.github.io/ViennaCityFly/)
  
 
 ### Programs and Software
-- [Python](https://www.python.org/)
-- [R](https://www.r-project.org/)
-- [VCFTools](http://vcftools.github.io/license.html)
+
+All Programs and Software that we used for our Use Case can be found in our [Use Case 3 specific GitHub repository](https://github.com/FAIRiCUBE/uc3-drosophola-genetics). 
 
 ## Partners
 
