@@ -77,17 +77,25 @@ The framework has been validated and deployed in multiple cities (Oslo, Rennes, 
 
 ## Resources
 
-| Category      | Description 	| Links     	|
-| --- 		| -------- 	|-------- 	|
-| GitHub 	| -------- 	| https://github.com/FAIRiCUBE/uc4-building-stock 	|
-| Zenodo Data Repository 	| -------- 	| https://zenodo.org/search?q=fairicube&f=resource_type%3Adataset&l=list&p=1&s=10&sort=bestmatch 	|
-| FAIRiCUBE Data catalog 	| -------- 	| https://catalog.eoxhub.fairicube.eu/search	|
-| Metadata 	| -------- 	|-------- 	|
-| Scrollytelling 	| -------- 	| https://uc4.fairicube.nilu.no/ 	|
-| Publications 	| -------- 	|-------- 	|
-| Software Stack 	|  <ul><li>Geospatial: GeoPandas, QGIS, GDAL, Rasterio, osmnx</li><li>ML/AI: TensorFlow (VGG16), XGBoost, LightGBM, joblib</li><li>Data: GeoJSON, GeoTIFF, shapefiles, JPEG, CSV</li></ul> |-------- 	|
+| Category      | Description 	|
+| --- 		| -------- 	|
+| [GitHub](https://github.com/FAIRiCUBE/uc4-building-stock ) 	| OpenSource Python code and notebook repository |
+| [Zenodo Data Repository[(https://zenodo.org/search?q=fairicube&f=resource_type%3Adataset&l=list&p=1&s=10&sort=bestmatch) 	| Published data sets with DOIs|
+| [FAIRiCUBE Data catalog](https://catalog.eoxhub.fairicube.eu/search) 	| Data and meta data records including preview 	|
+| [Metadata](https://fairicube-kb.epsilon-italia.it/) 	| Querry tool for meta records  	|
+| [Scrollytelling](https://uc4.fairicube.nilu.no/) 	| Brief data and use case overview |
+| Publications 	| tba-------- 	|
+| --- 		| ----------- 	|
 
+Software stack:
 
+- Geospatial: GeoPandas, QGIS, GDAL, Rasterio, osmnx
+
+- ML/AI: TensorFlow (VGG16), XGBoost, LightGBM, joblib
+
+- Data: GeoJSON, GeoTIFF, shapefiles, JPEG, CSV
+
+- Deployment: FAIR-compliant publication on EOXHub; reusable datasets for cross-city application
 
 ## Partners
 NILU, Climate and environmental research institute (https://nilu.no/)
