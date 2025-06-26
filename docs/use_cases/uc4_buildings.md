@@ -17,6 +17,7 @@ A Canopy Height Model (CHM) is computed by subtracting DTM from DSM, yielding pe
 
 The entire pipeline is modular, with outputs formatted as GeoTIFF raster and vector data layers were appropriate and ingested into a spatial-temporal data cube hosted on the FAIRiCUBE platform (EOXHub). These layers include raw inputs (e.g., height rasters), intermediate transformations (e.g., wall adjacency masks), and model results (e.g., energy demand surfaces), supporting cross-use-case interoperability and reproducibility.
 
+![Figure 1 – Workflow overview](workflowuc4.png)
 
 ## Data and ingestion
 
@@ -84,10 +85,7 @@ The framework has been validated and deployed in multiple cities (Oslo, Rennes, 
 | Metadata 	| -------- 	|-------- 	|
 | Scrollytelling 	| -------- 	| https://uc4.fairicube.nilu.no/ 	|
 | Publications 	| -------- 	|-------- 	|
-| Software Stack 	| - Geospatial: GeoPandas, QGIS, GDAL, Rasterio, osmnx
-- ML/AI: TensorFlow (VGG16), XGBoost, LightGBM, joblib
-- Data: GeoJSON, GeoTIFF, shapefiles, JPEG, CSV
- 	|-------- 	|
+| Software Stack 	|  <ul><li>Geospatial: GeoPandas, QGIS, GDAL, Rasterio, osmnx</li><li>ML/AI: TensorFlow (VGG16), XGBoost, LightGBM, joblib</li><li>Data: GeoJSON, GeoTIFF, shapefiles, JPEG, CSV</li></ul> |-------- 	|
 
 
 
