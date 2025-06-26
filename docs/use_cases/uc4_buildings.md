@@ -84,8 +84,7 @@ The framework has been validated and deployed in multiple cities (Oslo, Rennes, 
 | [FAIRiCUBE Data catalog](https://catalog.eoxhub.fairicube.eu/search) 	| Data and meta data records including preview 	|
 | [Metadata](https://fairicube-kb.epsilon-italia.it/) 	| Querry tool for meta records  	|
 | [Scrollytelling](https://uc4.fairicube.nilu.no/) 	| Brief data and use case overview |
-| Publications 	| tba-------- 	|
-| --- 		| ----------- 	|
+| Publications 	| tba	|
 
 Software stack:
 
