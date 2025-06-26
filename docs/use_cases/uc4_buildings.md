@@ -83,7 +83,7 @@ The framework has been validated and deployed in multiple cities (Oslo, Rennes, 
 | [Zenodo Data Repository](https://zenodo.org/search?q=fairicube&f=resource_type%3Adataset&l=list&p=1&s=10&sort=bestmatch) 	| Published data sets with DOIs|
 | [FAIRiCUBE Data catalog](https://catalog.eoxhub.fairicube.eu/search) 	| Data and meta data records including preview 	|
 | [Metadata](https://fairicube-kb.epsilon-italia.it/) 	| Querry tool for meta records  	|
-| [Scrollytelling](https://uc4.fairicube.nilu.no/) 	| Brief data and use case overview |
+| [Scrollytelling](https://uc4.fairicube.nilu.no/) 	| Appealing use case and data walktrough |
 | Publications 	| tba	|
 
 Software stack:
