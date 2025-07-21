@@ -1,8 +1,8 @@
-\## UC5 - Validation of Phytosociological Methods through Occurrence Cubes
+# UC5 - Validation of Phytosociological Methods through Occurrence Cubes
 
 
 
-\## Introduction
+## Introduction
 
 
 
@@ -12,7 +12,7 @@ By leveraging occurrence records from the Global Biodiversity Information Facili
 
 
 
-\## Research Questions
+## Research Questions
 
 
 
@@ -26,19 +26,19 @@ How do the predictions of species distribution compare with existing habitat map
 
 
 
-\## Workflow
+## Workflow
 
 
 
-\### Short Summary of Workflow
+### Short Summary of Workflow
 
 The UC5 workflow begins with retrieving occurrence data for diagnostic species of the EUNIS Habitat S22 from GBIF, alongside environmental and topographical data from various Earth Observation (EO) sources. The data is then pre-processed—filtered, cleaned, and structured into occurrence data cubes. To address the presence-only nature of GBIF data, pseudo-absence points were generated using a disc buffer method and merged with the presence data to form complete datasets for modelling.
 
-&nbsp;Next, species distribution models were developed using ensemble machine learning techniques. The resulting predictions of the eight main species of the study case habitat (S22) were aggregated and validated using the vegetation plots from EVA. Lastly, they were evaluated by comparing them against the EUNIS habitat probability map.
+Next, species distribution models were developed using ensemble machine learning techniques. The resulting predictions of the eight main species of the study case habitat (S22) were aggregated and validated using the vegetation plots from EVA. Lastly, they were evaluated by comparing them against the EUNIS habitat probability map.
 
 
 
-\### 1) Data retrieval 
+### 1) Data retrieval 
 
 The UC5 workflow began with the retrieval of species occurrence data from GBIF, which includes distribution records derived from herbarium collections, citizen science initiatives, and biodiversity surveys, all containing spatial and temporal coordinates. Environmental variables were obtained from multiple Earth Observation (EO) sources, including Copernicus, CHELSA Bioclim, and WorldClim. These datasets provide a range of climatic and topographic variables relevant for habitat modelling, such as temperature, precipitation, elevation, slope, TWI, HLI, TPI, and aridity index (AI).
 
@@ -46,15 +46,15 @@ Data ingestion was carried out locally via APIs rather than through the FAIRiCUB
 
 
 
-\### 2) Environmental and Species Data Filtering
+### 2) Environmental and Species Data Filtering
 
-&nbsp;Data preprocessing involved several crucial steps to clean and filter the raw datasets. Species occurrence records were filtered to remove duplicate entries, records with uncertain taxonomy, high uncertainty in coordinates (greater than 500m), and incorrect or missing coordinates, ensuring that the remaining data accurately represented the species’ true distribution.
+Data preprocessing involved several crucial steps to clean and filter the raw datasets. Species occurrence records were filtered to remove duplicate entries, records with uncertain taxonomy, high uncertainty in coordinates (greater than 500m), and incorrect or missing coordinates, ensuring that the remaining data accurately represented the species’ true distribution.
 
 
 
-\### 3) Processing Steps and ML Applications
+### 3) Processing Steps and ML Applications
 
-&nbsp;Once the occurrence  data were cleaned, the following steps were undertaken:
+Once the occurrence  data were cleaned, the following steps were undertaken:
 
 
 
@@ -80,49 +80,49 @@ Data ingestion was carried out locally via APIs rather than through the FAIRiCUB
 
 
 
-\## Solutions/Results
+## Solutions/Results
 
-&nbsp;Following the workflow built by the Use Case, it is possible to produce refined habitat distribution predictions that more accurately reflect plant species distribution in relation to environmental variables. The outputs include scripts to produce: data cubes that integrate species occurrence and environmental data, as well as predictive models for habitat distribution mapping. These outputs are openly available, allowing for reproducibility and further application in biodiversity monitoring, conservation, and museum collections curation.
-
-
+Following the workflow built by the Use Case, it is possible to produce refined habitat distribution predictions that more accurately reflect plant species distribution in relation to environmental variables. The outputs include scripts to produce: data cubes that integrate species occurrence and environmental data, as well as predictive models for habitat distribution mapping. These outputs are openly available, allowing for reproducibility and further application in biodiversity monitoring, conservation, and museum collections curation.
 
 
 
-\## Resources
+
+
+## Resources
 
 
 
-&nbsp;The full methodology, including code and documentation, are available in the GitHub repository for UC5. 
+The full methodology, including code and documentation, are available in the GitHub repository for UC5. 
 
 Key resources include:
 
 Data Sources:
 
-Species occurrence datasets: GBIF (https://www.gbif.org)
+* Species occurrence datasets: GBIF (https://www.gbif.org)
 
-Environmental data: Copernicus, Chelsa Bioclim, WorldClim
+* Environmental data: Copernicus, Chelsa Bioclim, WorldClim
 
-EUNIS Habitat classification system (map S22)
-
-
+* EUNIS Habitat classification system (map S22)
 
 
 
-\## Software and Tools:
 
-R (https://www.r-project.org/)
+
+## Software and Tools:
+
+* R (https://www.r-project.org/)
 
 Scripts: 
 
-GBIF data retrieval and pre-processing
+* GBIF data retrieval and pre-processing
 
-Data cube creation
+* Data cube creation
 
-Pseudo-absence data creation
+* Pseudo-absence data creation
 
-Ensemble model
+* Ensemble model
 
-Outputs comparison
+* Outputs comparison
 
 
 
