@@ -45,7 +45,7 @@ In this study, we applied BLSTM models to predict the 'Total Population' indicat
 
 - Helsinki (FI001C): Exhibits a simple, linear increasing trend.
 - Bari (IT008C): Displays a more complex, non-linear pattern.
-- 
+
 ![Helsinki and Bari total population over time](../images/uc1_gapfilling_blsm1.png)
 
 Each BLSTM model was trained using the first 70% of the time series (approximately 22 years), with a sequence length of 3 (e.g., predicting the value for 2010 using data from 2007–2009). The remaining years were reserved for testing. Training was conducted over 100 epochs.
@@ -54,7 +54,7 @@ Each BLSTM model was trained using the first 70% of the time series (approximate
 - Helsinki: The model achieved a Mean Absolute Percentage Error (MAPE) of 0.63%, closely matching the actual values due to the linear nature of the time series.
 - Bari: Despite a lower MAPE of 0.53%, the predictions did not accurately capture the complex trend, indicating limitations in model generalization for non-linear patterns.
 
-The figure below illustrates the predicted vs. actual values for Helsinki (FI001C) and Bari (IT008C).
+The figure below illustrates the predicted vs. actual values for Helsinki (FI001C) on the left and Bari (IT008C) on the right.
 
 ![gap-filling BLSM results](../images/uc1_gapfilling_blsm2.png)
 
@@ -75,12 +75,12 @@ Some indicators exhibit strong interdependencies. For example, the Proportion of
 Regression models learn a function that estimates the value of a target feature based on a set of input features. These models range from simple linear regression to more complex approaches such as ensemble methods and deep learning architectures.
 As a demonstration, we implemented a regression model to estimate the Total number of hours of sunshine per day (EN1002V) using the input features 
 Average temperature of warmest month – degrees (EN1003V) and Average temperature of coldest month – degrees (EN1004V).
-To train the model, we selected 1,673 data points from Eurostat where all three indicators were available. The trained model was then used to gap-fill 299 data points where the two input features were present, but the target feature was missing.
+To train the model, we selected 1673 data points from Eurostat where all three indicators were available. The trained model was then used to gap-fill 299 data points where the two input features were present, but the target feature was missing.
 
 ![gap-filling correlation matrix](../images/uc1_gapfilling_correlation.png)
 
-The figure above presents the correlation matrix computed from the 1,673 complete data points. The matrix reveals a positive correlation between the target and input features, particularly between EN1002V and EN1003V, with a correlation coefficient of 0.74. This strong correlation suggests that a regression model could perform well in this context.
-Several regression models were trained using 70% of the available data (1,173 data points). Among them, the Gradient Boosting Regressor—an ensemble method based on decision trees—yielded the best performance, with Mean Squared Error (MSE) of 0.48, equivalent to an average error of less than 30 minutes of sunshine per day, and F1 Score of 0.677, indicating promising classification-like performance in a regression context.
+The figure above presents the correlation matrix computed from the 1673 complete data points. The matrix reveals a positive correlation between the target and input features, particularly between EN1002V and EN1003V, with a correlation coefficient of 0.74. This strong correlation suggests that a regression model could perform well in this context.
+Several regression models were trained using 70% of the available data (1173 data points). Among them, the Gradient Boosting Regressor—an ensemble method based on decision trees—yielded the best performance, with Mean Squared Error (MSE) of 0.48, equivalent to an average error of less than 30 minutes of sunshine per day, and F1 Score of 0.677, indicating promising classification-like performance in a regression context.
 The figure below shows the distribution of predicted vs. actual sunshine hours, demonstrating a close alignment between the two.
 
 ![gap-filling regression](../images/uc1_gapfilling_regression.png)
@@ -113,7 +113,7 @@ The figure below shows pairwise combinations of the most relevant features (Arti
 
 ### Solution(s) 
 
-- Interactive view of the city features collection: 
+- Interactive view of the city features collection: [Streamlit app](https://euopean-cities-atlas.streamlit.app/)
 - Interactive demo clustering analysis: [Jupyter Notebook](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/demo/cities_clustering_interactive_demo.ipynb)
 
 
