@@ -17,7 +17,7 @@ At the **European level**, they help identify cities with similar characteristic
 
 ![Processing workflow - EU application](../images/uc1_workflow_eu.png)
 
-## Data and ingestion
+### Data and ingestion
 
 | Dataset name | Description | Link to Metadata
 |---|---|---|
@@ -38,6 +38,7 @@ At the **European level**, they help identify cities with similar characteristic
 ### Processing steps and ML applications
 
 To make the most out of the Eurostat socio-economic data, we experimented with ML gap filling methods based on feature correlation or on time series (Long Short-Term Memory method). Unfortunately the gaps proved to be too wide to be filled sensibly without hampering the data quality.
+
 #### Gap-filling with bidirectional LSTM
 A widely adopted machine learning technique for modeling time series is the Long Short-Term Memory (LSTM) network, a type of Recurrent Neural Network (RNN) designed to learn from sequential data and retain information over long time horizons. An extension of this model, the Bidirectional LSTM (BLSTM), processes data in both forward and backward directions, enhancing its ability to capture temporal dependencies.
 
@@ -111,19 +112,15 @@ The figure below shows pairwise combinations of the most relevant features (Arti
 
 ![clustering](../images/uc1_clustering.png)
 
-### Solution(s) 
+### Solutions
 
 - Interactive view of the city features collection: [Streamlit app](https://euopean-cities-atlas.streamlit.app/)
 - Interactive demo clustering analysis: [Jupyter Notebook](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/demo/cities_clustering_interactive_demo.ipynb)
 
 
-### Resources 
-
-- [Getting started with FAIRiCube Hub](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/demo/demo_processing.ipynb)
-
 ## Local level: invasive alien plant species
 
-At local level, the focus was on leveraging earth observation data cubes to monitor invasive plant species. These research questions were developed in collaboration with the Environment delegate of Luxembourg City administration:
+At local level, the focus was on leveraging earth observation data cubes to monitor invasive plant species. These research questions were developed in collaboration with the Environment delegate of Luxembourg City administration.
 
 ### Research questions
 
@@ -131,12 +128,29 @@ At local level, the focus was on leveraging earth observation data cubes to moni
 * Can we identify patterns of neophytes spread, and how they affect sensitive areas? 
 
 ### Workflow 
+We began by collecting species occurrence data and environmental variables (like shadows, wetness, temperature, and land cover). We then fed these inputs into a species distribution model using MaxEnt, which allowed us to create suitability maps showing where species can thrive.
+We used these suitability maps to conduct impact assessment to evaluate effects on our specific areas of interest (parks, schools, kindergartens, and ruderal areas).
+We also performed explanatory model analysis using Shapley Additive exPlanations to understand which factors most influenced our results.
+We initially considered using a habitat potential model (Ellenberg) component, as shown with the dotted line and red X, but we found this approach was unsuccessful or decided not to use it.
 
 ![Processing workflow - local application](../images/uc1_workflow_local.png)
 
 ### Data and ingestion
 
-Table 2 lists the input data sets used for this application. All the datasets were pre-processed to match the species distribution model requirements. Shadow index and Topographic wetness index were derived from Luxembourg DEM; gridded land cover was obtained by rasterizing the land cover map, which is a vector dataset; Soil acidity, soil nitrogen and temperature were extracted (clipped) from EU wide datasets, reprojected and regridded to match the target CRS (LUREF) at 10m resolution. Most of the preparatory work has been carried out in EOXHub using Python, except for the generation of the Shadow index and Topographic wetness index maps, which was done in QGIS. 
+Species occurrences were downloaded from [mdata](https://mdata.mnhn.lu/), a database mantained by the National History Museum of Luxembourg. We selected five species from the list of invasive species in Article 12(1) of the EU Regulation 1143/2014 on Invasive Alien Species which can pose risks to people and at the same time had a sufficient number of observations within the city boundary.
+The species along with the number of occurrences (from 2010) are listed in Table 2.
+
+| Species | No. occurrences |
+|-|-|
+| Robinia Pseudoacacia L. | 205 |
+| Reynoutria Japonica | 69 |
+| Impatiens Glandulifera | 69 |
+| Heracleum Mantegazzianum | 34 |
+| Prunus laurocerasus | 81 |
+| Solidago canadensis | 18 |
+
+
+Table 3 lists the environmental layers used for this application. All the datasets were pre-processed to match the species distribution model requirements. Shadow index and Topographic wetness index were derived from Luxembourg DEM; gridded land cover was obtained by rasterizing the land cover map, which is a vector dataset; Soil acidity, soil nitrogen and temperature were extracted (clipped) from EU wide datasets, reprojected and regridded to match the target CRS (LUREF) at 10m resolution. Most of the preparatory work has been carried out in EOXHub using Python, except for the generation of the Shadow index and Topographic wetness index maps, which was done in QGIS. 
 
 | Dataset name                             | Description                                                                                                                                                                                                      | FAIRiCUBE STAC Catalog link                                                                                                                                                                                     |
 | ---- | ---------------------------- | --------------------------- |
@@ -147,24 +161,34 @@ Table 2 lists the input data sets used for this application. All the datasets we
 | Soil Nitrogen                            | Soil Chemical properties based on LUCAS 2009/2012 soil surveys.                                                                                                                                                  | [catalog.eoxhub.fairicube.eu/collections/index/items/soil_nitrogen_city_of_luxembourg](https://catalog.eoxhub.fairicube.eu/collections/index/items/soil_nitrogen_city_of_luxembourg?.language=e)                |
 | Land cover                               | Land Cover of the City of Luxembourg                                                                                                                                                                             | [catalog.eoxhub.fairicube.eu/collections/index/items/land_cover_city_of_luxembourg](https://catalog.eoxhub.fairicube.eu/collections/index/items/land_cover_city_of_luxembourg?.language=en)                     |
 
-
+![Data preparation local level](../images/uc1_data_prep_local.png)
 
 ### Processing steps and ML applications
+#### Species distribution model
+MaxEnt is a presence-only species distribution modelling technique that applies the principle of maximum entropy to predict species' potential geographic distributions by finding the probability distribution that is most spread out, or closest to uniform, while still satisfying constraints derived from occurrence data and environmental variables.
+The model estimates the relationship between species occurrences and environmental variables by using presence-only data points (where species have been observed), contrasting these with randomly sampled background points from the study area, and then generating a probability distribution across the landscape that indicates habitat suitability. More about MaxEnt: 
+In this project we used elapid (Anderson, 2021/2023), a Python library that implements MaxEnt. <link>
 
-TODO
+#### Explanatory model analysis
+SHAP (SHapley Additive exPlanations) is a unified framework for interpreting predictions of machine learning models (Lundberg & Lee, 2017). It provides consistent and locally accurate feature attribution values, so-called SHAP values, based on game theory principles.
+Broadly speaking, in the context of machine learning, SHAP treats each input feature as a "player" in a cooperative game where the model prediction is the "payout," with SHAP values quantifying each feature's contribution to the difference between the actual prediction and the baseline average prediction. More about SHAP here <link>
 
-### Solution(s) 
+#### Impact assessment
+The suitability maps were also used to establish the impact on certain areas of interest, such as city parks and areas around schools and kindergardens. We extracted the polygons of the areas of interest from OpenStreetMap. For schools and kindergardens, we further buffered them and clustered the schools/kindergardens close to each other. Finally we computed the mean suitability index for each area of interest ans species. Tthe figure below shows the parks location and the mean suitabilty index table.
 
-TODO
+![Parks and mean suitability index](../images/uc1_parks2.png)
+
+### Solutions
+
+- Interactive scrollytelling map: [uc1.fairicube.nilu.no](https://uc1.fairicube.nilu.no/)
+- Poster presented at the GDDS event: [doi.org/10.5281/zenodo.16570538](https://doi.org/10.5281/zenodo.16570538)
 
 
-### Resources 
+## Resources 
 
-An example Jupyter Notebook is provided by UC1: [Getting started with FAIRiCube Hub](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/demo/demo_processing.ipynb)
+- [Getting started with FAIRiCube Hub](https://github.com/FAIRiCUBE/uc1-urban-climate/blob/master/notebooks/demo/demo_processing.ipynb)
+
 
 ## Partners
 
-space4environment and Stiftelsen Norsk Institutt for Luftforskning, Norwegian Institute for Air Research.
-
-
-
+[space4environment](https://space4environment.com/) and [Stiftelsen Norsk Institutt for Luftforskning, Norwegian Institute for Air Research](https://nilu.com/).
