@@ -21,7 +21,7 @@ The UC5 workflow begins with retrieving occurrence data for diagnostic species o
 Species distribution models are then developed using **ensemble ML techniques**. Predictions for the eight main species of the study habitat (S22) are aggregated and validated using vegetation plots from **EVA**. Lastly, the outputs are evaluated against the **EUNIS habitat probability map**.
 
 <p style="text-align:center;">
-&nbsp; <img src="../assets/uc5/uc5_workflow.png" alt="Workflow of UC5" />
+&nbsp; <img src="../images/uc5/uc5_workflow.png" alt="Workflow of UC5" />
 </p>
 
 ### 1) Data retrieval
@@ -51,11 +51,11 @@ Preprocessing removes duplicate entries; records with uncertain taxonomy; high c
 <table>
   <tr>
     <td style="text-align:center;">
-      <img src="../assets/uc5/uc5_vs_eunis__1km.png" alt="UC5 outputs (blue) vs EUNIS S22 (red) at 1 km" />
+      <img src="../images/uc5/uc5_vs_eunis__1km.png" alt="UC5 outputs (blue) vs EUNIS S22 (red) at 1 km" />
       <br/><em>1 km resolution</em>
     </td>
     <td style="text-align:center;">
-      <img src="../assets/uc5/uc5_vs_eunis_100m.png" alt="UC5 outputs (blue) vs EUNIS S22 (red) at 100 m" />
+      <img src="../images/uc5/uc5_vs_eunis_100m.png" alt="UC5 outputs (blue) vs EUNIS S22 (red) at 100 m" />
       <br/><em>100 m resolution</em>
     </td>
   </tr>
