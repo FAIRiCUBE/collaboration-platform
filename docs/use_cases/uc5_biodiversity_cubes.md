@@ -20,9 +20,7 @@ The UC5 workflow begins with retrieving occurrence data for diagnostic species o
 
 Species distribution models are then developed using **ensemble ML techniques**. Predictions for the eight main species of the study habitat (S22) are aggregated and validated using vegetation plots from **EVA**. Lastly, the outputs are evaluated against the **EUNIS habitat probability map**.
 
-<p style="text-align:center;">
-&nbsp; <img src="../images/uc5/uc5_workflow.png" alt="Workflow of UC5" />
-</p>
+![Workflow of UC5](../images/uc5/uc5_workflow.png)
 
 ### 1) Data retrieval
 
@@ -48,18 +46,9 @@ Preprocessing removes duplicate entries; records with uncertain taxonomy; high c
 
 #### UC5 outputs vs EUNIS S22 (examples)
 
-<table>
-  <tr>
-    <td style="text-align:center;">
-      <img src="../images/uc5/uc5_vs_eunis__1km.png" alt="UC5 outputs (blue) vs EUNIS S22 (red) at 1 km" />
-      <br/><em>1 km resolution</em>
-    </td>
-    <td style="text-align:center;">
-      <img src="../images/uc5/uc5_vs_eunis_100m.png" alt="UC5 outputs (blue) vs EUNIS S22 (red) at 100 m" />
-      <br/><em>100 m resolution</em>
-    </td>
-  </tr>
-</table>
+| 1 km resolution | 100 m resolution |
+|-----------------|----------------|
+| ![1 km](../images/uc5/uc5_vs_eunis__1km.png) | ![100 m](../images/uc5/uc5_vs_eunis_100m.png) |
 
 ## Solutions
 
@@ -81,7 +70,7 @@ These outputs are openly available for reproducibility and further application i
 ### Software and tools
 
 - **R** ([https://www.r-project.org/](https://www.r-project.org/))
-- User-friendly R scripts for:
+- [User-friendly R script](https://github.com/FAIRiCUBE/uc5-occurence-cubes/tree/main/user-friendly-script) for:
   - GBIF data retrieval and preprocessing
   - Data cube creation
   - Pseudo-absence generation
