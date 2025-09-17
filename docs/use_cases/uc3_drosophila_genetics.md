@@ -36,6 +36,8 @@ We also work with genomic data from <em>Drosophila melanogaster</em> at populati
 Environmental data is available from various sources, matching our regions and times of interest. We used FAIRiCUBE infrastructure to access earth observation and environemntal data to match our sample coordinates. We also developed a tool called [QueryCube](https://querycube.nilu.no/) to access and download data for point coordinates.
 We combine both data types (genomic and environmental) by doing redundancy analysis. The complete workflow including code and instructions can be found in the GitHub Repository of [UseCase3](https://github.com/FAIRiCUBE/uc3-drosophola-genetics).
 
+![WorkflowDiagram](https://github.com/FAIRiCUBE/collaboration-platform/docs/images/Uc3_workflow_diagram.png)
+
 ## Data and ingestion 
 
 Use Case 3 mostly uses APIs available via the FAIRiCUBE infrastructure. One data source, that was ingested in the Rasdaman architecture was the [Glocbal Pesticide Grid](https://www.earthdata.nasa.gov/news/new-agricultural-pesticide-use-dataset-nasas-sedac).
