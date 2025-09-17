@@ -2,16 +2,28 @@
 
 Combining earth observation and genomics data to study the evolutionary history of the fruit fly <em>Drosophila melanogaster</em>.
 
-In our “Drosophila genomics” use case, we take advantage of comprehensive earth observation data for climate and land use available in the public domain. We will combine environmental data with genomic information of fruit fly DNA samples from more than 300 European Drosophila melanogaster populations that were densely sampled through time and space by [DrosEU](https://droseu.net), our partner consortium. We are developing tools that facilitate extracting information for sample coordinates from gridded datasets to identify links between genetic variation along the whole <em>Drosophila melanogaster</em> genome and environmental variation.
+In our “Drosophila genomics” use case, we take advantage of comprehensive earth observation data for climate and land use available in the public domain. 
 
+
+We will combine environmental data with genomic information of fruit fly DNA samples from <em>Drosophila melanogaster</em> populations and explore how  environments shape the ecology and evolution of the species. Taking Vienna as a specific example for urban habitats — with its mix of dense cityscapes, green spaces, and suburban habitats — we specifically want to investigate the composition of local <em>Drosophila</em> communities, the genetic diversity of urban <em>D. melanogaster</em> populations, and the factors that influence their distribution. We established a Citizen Science project, [Vienna City Fly](), which allowed us to concuct this research on Viennese populations of <em>D. melanogaster</em>. We also performed further analyses on <em>D. melanogaster</em> populations that were densely sampled through time and space by [DrosEU](https://droseu.net), our partner consortium.
+
+We are developing tools that facilitate extracting information for sample coordinates from gridded datasets to identify links between genetic variation along the whole <em>Drosophila melanogaster</em> genome and environmental variation.
 This approach will allow to identify genes that are putatively under selection and involved in adaptation to environmental change. Using machine learning approaches, we further aim to identify combinations of environmental factors that may influence the genetic diversity in natural populations which will help us to better understand the impact of climate change on the accelerating biodiversity crisis.
 
-## Research Questions
+## Research Questions 
 
-1. How does environmental variation across space and time correlate with patterns of genetic diversity in <em>Drosophila melanogaster</em> populations?
-2. Which genomic regions or genes in Drosophila melanogaster show signatures of adaptation to specific environmental conditions?
-3. Can combinations of environmental factors predict changes in genetic structure or the presence of adaptive alleles in natural populations?
-4. Is it possible to also investigate those research questions in an urban context?
+Research Questions On Urban <em>Drosophila</em> 
+1. What is the species composition of <em>Drosophila</em> communities in urban environments?
+2. What are the key environmental factors that determine the distribution of flies in the City of Vienna?
+3. How does the genetic diversity of urban <em>D. melanogaster</em> populations compare with that of populations from rural regions?
+4. Can citizen science provide reliable data on the diversity and ecology of Drosophila in urban environments?
+5. How does participation in such a project influence public awareness and interest in biodiversity and scientific research?
+
+Research Questions On European <em>Drosophila</em>
+
+7. How does environmental variation across space and time correlate with patterns of genetic diversity in <em>D. melanogaster</em> populations?
+8. Which genomic regions or genes in <em>D. melanogaster</em> show signatures of adaptation to specific environmental conditions?
+9. Can combinations of environmental factors predict changes in genetic structure or the presence of adaptive alleles in natural populations?
 
 ## Workflow
 
