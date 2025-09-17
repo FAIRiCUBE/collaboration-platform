@@ -27,14 +27,13 @@ Research Questions On European <em>Drosophila</em>
 
 ## Workflow
 
-We work with genomic data from <em>Drosophila melanogaster</em> at population level, available at [DEST.bio](https://dest.bio/). This genomic data is availbale at a common data format called "Variant Call Format" or short VCF. From these VCF files, we generate so-called Allele Frequencies for each population.
+In our Citizen Science project called [Vienna City Fly](https://nhmvienna.github.io/ViennaCityFly/) we collected over 19'000 new specimen of Drosophilid flies. 47 Populations were sequecend on a whole genome scale and genomic information was analysed together with environmental data for the city of Vienna.
+The workflow integrates earth observation data with Drosophila records through preprocessing, standardization, and variable selection. We then conduct descriptive and biodiversity analyses, including diversity indices, ordinations, and mixed-effects models. Rarefaction, redundancy analysis, and species distribution modeling further assess sampling completeness, environmental drivers, and habitat suitability.
+The full workflow to conduct research on urban <em>Drosophila</em> can be found in the GitHub Repository [UrbanDrosophilaEcology](https://github.com/capoony/UrbanDrosophilaEcology). 
+
+We also work with genomic data from <em>Drosophila melanogaster</em> at population level, available at [DEST.bio](https://dest.bio/).
 Environmental data is available from various sources, matching our regions and times of interest. We used FAIRiCUBE infrastructure to access earth observation and environemntal data to match our sample coordinates. We also developed a tool called [QueryCube](https://querycube.nilu.no/) to access and download data for point coordinates.
-We combine both data types (genomic and environmental) by doing association analysis. We apply selected statistical methods to uncover the relationship between genomics and environments. 
-
-One major aspect of our work was answering question 4. We therefore established a Citizen Science project called [Vienna City Fly](https://nhmvienna.github.io/ViennaCityFly/) and collected over 19'000 new specimen of Drosophilid flies which were analysed with the same methods as the european scale data. 
-The workflow to conduct research on urban <em>Drosophila</em> is also part of the FAIRiCUBE GitHub repository, called [uc3-vienna-city-fly.](https://github.com/FAIRiCUBE/uc3-vienna-city-fly)
-
-The complete workflow including code and instructions can be found in the GitHub Repository of [UseCase3](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/LandscapeGenomicsPipeline).
+We combine both data types (genomic and environmental) by doing redundancy analysis. The complete workflow including code and instructions can be found in the GitHub Repository of [UseCase3](https://github.com/FAIRiCUBE/uc3-drosophola-genetics).
 
 ## Data and ingestion 
 
