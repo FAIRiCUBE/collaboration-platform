@@ -81,7 +81,7 @@ RDA is a multivariate statistical method that examines how much of the genetic v
 
 [Workflow Repository](https://github.com/FAIRiCUBE/uc3-drosophola-genetics/tree/main/projects/LandscapeGenomicsPipeline)
 
-### Accquiring Point Coordinates For Environemntal Data
+### Accquiring Point Coordinates For Environmental Data
 Offering  access to just the point coordinates from large spatial datasets can significantly enhance the efficiency of data workflows and lower the barrier to spatial analysis. By allowing simple extraction information — like observation sites or sampling locations— without the handling full raster datasets, [QueryCube](https://querycube.nilu.no/) simplifies analysis and reduces both storage and computational demands.
 
 
