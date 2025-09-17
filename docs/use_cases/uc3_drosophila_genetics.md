@@ -12,13 +12,13 @@ This approach will allow to identify genes that are putatively under selection a
 
 ## Research Questions 
 
-Research Questions On Urban <em>Drosophila</em> 
+Research Questions On Urban <em>Drosophila</em> <br>
 
-1. What is the species composition of <em>Drosophila</em> communities in urban environments?
-2. What are the key environmental factors that determine the distribution of flies in the City of Vienna?
-3. How does the genetic diversity of urban <em>D. melanogaster</em> populations compare with that of populations from rural regions?
-4. Can citizen science provide reliable data on the diversity and ecology of Drosophila in urban environments?
-5. How does participation in such a project influence public awareness and interest in biodiversity and scientific research?
+1. What is the species composition of <em>Drosophila</em> communities in urban environments?<br>
+2. What are the key environmental factors that determine the distribution of flies in the City of Vienna?<br>
+3. How does the genetic diversity of urban <em>D. melanogaster</em> populations compare with that of populations from rural regions?<br>
+4. Can citizen science provide reliable data on the diversity and ecology of Drosophila in urban environments?<br>
+5. How does participation in such a project influence public awareness and interest in biodiversity and scientific research?<br>
 
 Research Questions On European <em>Drosophila</em>
 
